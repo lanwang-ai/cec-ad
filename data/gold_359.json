@@ -1,0 +1,4003 @@
+{
+ "meta": {
+  "annotators": [
+   "A",
+   "B",
+   "C"
+  ],
+  "n_total": 359,
+  "n_majority": 349,
+  "n_pending": 10,
+  "qc_rate": 0.1,
+  "seed": 42
+ },
+ "items": [
+  {
+   "id": "D1_real37-177f991f-aaa3-4eef-8f4a-9a359b1ae884_C005",
+   "label": "no_evidence",
+   "source": "majority",
+   "votes": {
+    "A": "no_evidence",
+    "B": "no_evidence",
+    "C": "no_evidence"
+   },
+   "vote_kind": "unanimous"
+  },
+  {
+   "id": "D1_real37-177f991f-aaa3-4eef-8f4a-9a359b1ae884_C010",
+   "label": "no_evidence",
+   "source": "majority",
+   "votes": {
+    "A": "no_evidence",
+    "B": "no_evidence",
+    "C": "no_evidence"
+   },
+   "vote_kind": "unanimous"
+  },
+  {
+   "id": "D1_real37-177f991f-aaa3-4eef-8f4a-9a359b1ae884_C014",
+   "label": "no_evidence",
+   "source": "majority",
+   "votes": {
+    "A": "no_evidence",
+    "B": "no_evidence",
+    "C": "no_evidence"
+   },
+   "vote_kind": "unanimous"
+  },
+  {
+   "id": "D1_real37-177f991f-aaa3-4eef-8f4a-9a359b1ae884_C015",
+   "label": "partially_supported",
+   "source": "majority",
+   "votes": {
+    "A": "partially_supported",
+    "B": "partially_supported",
+    "C": "partially_supported"
+   },
+   "vote_kind": "unanimous"
+  },
+  {
+   "id": "D1_real37-1e485f9a-3beb-4850-93c6-27ce3f09050d_C002",
+   "label": "supported",
+   "source": "majority",
+   "votes": {
+    "A": "supported",
+    "B": "supported",
+    "C": "supported"
+   },
+   "vote_kind": "unanimous"
+  },
+  {
+   "id": "D1_real37-1e485f9a-3beb-4850-93c6-27ce3f09050d_C016",
+   "label": "partially_supported",
+   "source": "majority",
+   "votes": {
+    "A": "partially_supported",
+    "B": "partially_supported",
+    "C": "partially_supported"
+   },
+   "vote_kind": "unanimous"
+  },
+  {
+   "id": "D1_real37-1e485f9a-3beb-4850-93c6-27ce3f09050d_C017",
+   "label": "not_scored",
+   "source": "majority",
+   "votes": {
+    "A": "not_scored",
+    "B": "not_scored",
+    "C": "not_scored"
+   },
+   "vote_kind": "unanimous"
+  },
+  {
+   "id": "D1_real37-1e485f9a-3beb-4850-93c6-27ce3f09050d_C018",
+   "label": "contradicted",
+   "source": "majority",
+   "votes": {
+    "A": "contradicted",
+    "B": "contradicted",
+    "C": "contradicted"
+   },
+   "vote_kind": "unanimous"
+  },
+  {
+   "id": "D1_real37-1edcdf4c-a135-49a5-b189-03740c835cb8_C023",
+   "label": "supported",
+   "source": "majority",
+   "votes": {
+    "A": "supported",
+    "B": "supported",
+    "C": "partially_supported"
+   },
+   "vote_kind": "majority"
+  },
+  {
+   "id": "D1_real37-1edcdf4c-a135-49a5-b189-03740c835cb8_C029",
+   "label": "partially_supported",
+   "source": "majority",
+   "votes": {
+    "A": "partially_supported",
+    "B": "partially_supported",
+    "C": "partially_supported"
+   },
+   "vote_kind": "unanimous"
+  },
+  {
+   "id": "D1_real37-25138cf1-5c85-4a03-9fea-5994e3ee5780_C001",
+   "label": "partially_supported",
+   "source": "majority",
+   "votes": {
+    "A": "partially_supported",
+    "B": "partially_supported",
+    "C": "partially_supported"
+   },
+   "vote_kind": "unanimous"
+  },
+  {
+   "id": "D1_real37-25138cf1-5c85-4a03-9fea-5994e3ee5780_C002",
+   "label": "partially_supported",
+   "source": "majority",
+   "votes": {
+    "A": "partially_supported",
+    "B": "partially_supported",
+    "C": "partially_supported"
+   },
+   "vote_kind": "unanimous"
+  },
+  {
+   "id": "D1_real37-25138cf1-5c85-4a03-9fea-5994e3ee5780_C005",
+   "label": "not_scored",
+   "source": "majority",
+   "votes": {
+    "A": "not_scored",
+    "B": "no_evidence",
+    "C": "not_scored"
+   },
+   "vote_kind": "majority"
+  },
+  {
+   "id": "D1_real37-25138cf1-5c85-4a03-9fea-5994e3ee5780_C007",
+   "label": "not_scored",
+   "source": "majority",
+   "votes": {
+    "A": "not_scored",
+    "B": "not_scored",
+    "C": "not_scored"
+   },
+   "vote_kind": "unanimous"
+  },
+  {
+   "id": "D1_real37-36bb848f-4bfd-4922-a321-b159bddd1d49_C001",
+   "label": "partially_supported",
+   "source": "majority",
+   "votes": {
+    "A": "partially_supported",
+    "B": "partially_supported",
+    "C": "partially_supported"
+   },
+   "vote_kind": "unanimous"
+  },
+  {
+   "id": "D1_real37-36bb848f-4bfd-4922-a321-b159bddd1d49_C008",
+   "label": "partially_supported",
+   "source": "majority",
+   "votes": {
+    "A": "partially_supported",
+    "B": "not_scored",
+    "C": "partially_supported"
+   },
+   "vote_kind": "majority"
+  },
+  {
+   "id": "D1_real37-36bb848f-4bfd-4922-a321-b159bddd1d49_C013",
+   "label": "not_scored",
+   "source": "majority",
+   "votes": {
+    "A": "not_scored",
+    "B": "not_scored",
+    "C": "not_scored"
+   },
+   "vote_kind": "unanimous"
+  },
+  {
+   "id": "D1_real37-413392e2-30b8-4e05-8469-53b2dc2f9b86_C001",
+   "label": "not_scored",
+   "source": "majority",
+   "votes": {
+    "A": "no_evidence",
+    "B": "not_scored",
+    "C": "not_scored"
+   },
+   "vote_kind": "majority"
+  },
+  {
+   "id": "D1_real37-413392e2-30b8-4e05-8469-53b2dc2f9b86_C007",
+   "label": "partially_supported",
+   "source": "majority",
+   "votes": {
+    "A": "partially_supported",
+    "B": "partially_supported",
+    "C": "not_scored"
+   },
+   "vote_kind": "majority"
+  },
+  {
+   "id": "D1_real37-413392e2-30b8-4e05-8469-53b2dc2f9b86_C008",
+   "label": "contradicted",
+   "source": "majority",
+   "votes": {
+    "A": "contradicted",
+    "B": "contradicted",
+    "C": "no_evidence"
+   },
+   "vote_kind": "majority"
+  },
+  {
+   "id": "D1_real37-413392e2-30b8-4e05-8469-53b2dc2f9b86_C010",
+   "label": "not_scored",
+   "source": "majority",
+   "votes": {
+    "A": "not_scored",
+    "B": "not_scored",
+    "C": "not_scored"
+   },
+   "vote_kind": "unanimous"
+  },
+  {
+   "id": "D1_real37-536cbc24-4132-46c0-856d-847949f93926_C003",
+   "label": "partially_supported",
+   "source": "majority",
+   "votes": {
+    "A": "partially_supported",
+    "B": "no_evidence",
+    "C": "partially_supported"
+   },
+   "vote_kind": "majority"
+  },
+  {
+   "id": "D1_real37-536cbc24-4132-46c0-856d-847949f93926_C014",
+   "label": "supported",
+   "source": "majority",
+   "votes": {
+    "A": "supported",
+    "B": "supported",
+    "C": "partially_supported"
+   },
+   "vote_kind": "majority"
+  },
+  {
+   "id": "D1_real37-536cbc24-4132-46c0-856d-847949f93926_C017",
+   "label": "partially_supported",
+   "source": "majority",
+   "votes": {
+    "A": "partially_supported",
+    "B": "not_scored",
+    "C": "partially_supported"
+   },
+   "vote_kind": "majority"
+  },
+  {
+   "id": "D1_real37-59c5fa09-6615-43a1-bfba-d77c4d4c8e29_C001",
+   "label": "supported",
+   "source": "adjudicated",
+   "votes": {
+    "A": "supported",
+    "B": "contradicted",
+    "C": "partially_supported"
+   },
+   "reason": "send_message(ok) 支持已发送；github 报错与该句主题无关，不构成矛盾"
+  },
+  {
+   "id": "D1_real37-59c5fa09-6615-43a1-bfba-d77c4d4c8e29_C005",
+   "label": "partially_supported",
+   "source": "majority",
+   "votes": {
+    "A": "partially_supported",
+    "B": "partially_supported",
+    "C": "not_scored"
+   },
+   "vote_kind": "majority"
+  },
+  {
+   "id": "D1_real37-59c5fa09-6615-43a1-bfba-d77c4d4c8e29_C010",
+   "label": "not_scored",
+   "source": "majority",
+   "votes": {
+    "A": "not_scored",
+    "B": "not_scored",
+    "C": "not_scored"
+   },
+   "vote_kind": "unanimous"
+  },
+  {
+   "id": "D1_real37-6c02e1b6-ba0f-4c12-a077-3908ef8c26c3_C000",
+   "label": "supported",
+   "source": "majority",
+   "votes": {
+    "A": "partially_supported",
+    "B": "supported",
+    "C": "supported"
+   },
+   "vote_kind": "majority"
+  },
+  {
+   "id": "D1_real37-6c02e1b6-ba0f-4c12-a077-3908ef8c26c3_C004",
+   "label": "partially_supported",
+   "source": "majority",
+   "votes": {
+    "A": "partially_supported",
+    "B": "partially_supported",
+    "C": "partially_supported"
+   },
+   "vote_kind": "unanimous"
+  },
+  {
+   "id": "D1_real37-792a6e51-4279-48e6-ae0d-63190ec6c707_C012",
+   "label": "no_evidence",
+   "source": "majority",
+   "votes": {
+    "A": "no_evidence",
+    "B": "no_evidence",
+    "C": "no_evidence"
+   },
+   "vote_kind": "unanimous"
+  },
+  {
+   "id": "D1_real37-792a6e51-4279-48e6-ae0d-63190ec6c707_C017",
+   "label": "not_scored",
+   "source": "majority",
+   "votes": {
+    "A": "not_scored",
+    "B": "not_scored",
+    "C": "partially_supported"
+   },
+   "vote_kind": "majority"
+  },
+  {
+   "id": "D1_real37-809b5f92-01a0-4dcf-bc02-8d36d6c360f7_C000",
+   "label": "contradicted",
+   "source": "majority",
+   "votes": {
+    "A": "contradicted",
+    "B": "not_scored",
+    "C": "contradicted"
+   },
+   "vote_kind": "majority"
+  },
+  {
+   "id": "D1_real37-809b5f92-01a0-4dcf-bc02-8d36d6c360f7_C001",
+   "label": "partially_supported",
+   "source": "majority",
+   "votes": {
+    "A": "partially_supported",
+    "B": "partially_supported",
+    "C": "partially_supported"
+   },
+   "vote_kind": "unanimous"
+  },
+  {
+   "id": "D1_real37-809b5f92-01a0-4dcf-bc02-8d36d6c360f7_C006",
+   "label": "contradicted",
+   "source": "majority",
+   "votes": {
+    "A": "contradicted",
+    "B": "contradicted",
+    "C": "partially_supported"
+   },
+   "vote_kind": "majority"
+  },
+  {
+   "id": "D1_real37-86b2b7ab-574c-4a76-b886-5b61476e6fb1_C008",
+   "label": "partially_supported",
+   "source": "majority",
+   "votes": {
+    "A": "partially_supported",
+    "B": "partially_supported",
+    "C": "partially_supported"
+   },
+   "vote_kind": "unanimous"
+  },
+  {
+   "id": "D1_real37-86b2b7ab-574c-4a76-b886-5b61476e6fb1_C012",
+   "label": "no_evidence",
+   "source": "majority",
+   "votes": {
+    "A": "no_evidence",
+    "B": "partially_supported",
+    "C": "no_evidence"
+   },
+   "vote_kind": "majority"
+  },
+  {
+   "id": "D1_real37-86b2b7ab-574c-4a76-b886-5b61476e6fb1_C015",
+   "label": "partially_supported",
+   "source": "majority",
+   "votes": {
+    "A": "supported",
+    "B": "partially_supported",
+    "C": "partially_supported"
+   },
+   "vote_kind": "majority"
+  },
+  {
+   "id": "D1_real37-9174849a-ea85-4000-8a7d-9fea0b6c5153_C001",
+   "label": "partially_supported",
+   "source": "majority",
+   "votes": {
+    "A": "partially_supported",
+    "B": "partially_supported",
+    "C": "partially_supported"
+   },
+   "vote_kind": "unanimous"
+  },
+  {
+   "id": "D1_real37-9174849a-ea85-4000-8a7d-9fea0b6c5153_C008",
+   "label": "not_scored",
+   "source": "majority",
+   "votes": {
+    "A": "not_scored",
+    "B": "no_evidence",
+    "C": "not_scored"
+   },
+   "vote_kind": "majority"
+  },
+  {
+   "id": "D1_real37-9174849a-ea85-4000-8a7d-9fea0b6c5153_C012",
+   "label": "partially_supported",
+   "source": "majority",
+   "votes": {
+    "A": "partially_supported",
+    "B": "partially_supported",
+    "C": "partially_supported"
+   },
+   "vote_kind": "unanimous"
+  },
+  {
+   "id": "D1_real37-9174849a-ea85-4000-8a7d-9fea0b6c5153_C015",
+   "label": "no_evidence",
+   "source": "majority",
+   "votes": {
+    "A": "no_evidence",
+    "B": "no_evidence",
+    "C": "no_evidence"
+   },
+   "vote_kind": "unanimous"
+  },
+  {
+   "id": "D1_real37-a519d028-60f2-4292-8863-0a054b9a8a8c_C018",
+   "label": "partially_supported",
+   "source": "majority",
+   "votes": {
+    "A": "partially_supported",
+    "B": "partially_supported",
+    "C": "partially_supported"
+   },
+   "vote_kind": "unanimous"
+  },
+  {
+   "id": "D1_real37-b7e1ad0c-f23e-4331-9918-ce0074e03562_C001",
+   "label": "partially_supported",
+   "source": "majority",
+   "votes": {
+    "A": "partially_supported",
+    "B": "partially_supported",
+    "C": "partially_supported"
+   },
+   "vote_kind": "unanimous"
+  },
+  {
+   "id": "D1_real37-b7e1ad0c-f23e-4331-9918-ce0074e03562_C008",
+   "label": "partially_supported",
+   "source": "majority",
+   "votes": {
+    "A": "partially_supported",
+    "B": "partially_supported",
+    "C": "partially_supported"
+   },
+   "vote_kind": "unanimous"
+  },
+  {
+   "id": "D1_real37-b7e1ad0c-f23e-4331-9918-ce0074e03562_C013",
+   "label": "partially_supported",
+   "source": "majority",
+   "votes": {
+    "A": "partially_supported",
+    "B": "partially_supported",
+    "C": "partially_supported"
+   },
+   "vote_kind": "unanimous"
+  },
+  {
+   "id": "D1_real37-b9687f63-667f-4703-89f8-a96c22cbd2a2_C000",
+   "label": "supported",
+   "source": "majority",
+   "votes": {
+    "A": "supported",
+    "B": "supported",
+    "C": "supported"
+   },
+   "vote_kind": "unanimous"
+  },
+  {
+   "id": "D1_real37-b9687f63-667f-4703-89f8-a96c22cbd2a2_C005",
+   "label": "not_scored",
+   "source": "majority",
+   "votes": {
+    "A": "not_scored",
+    "B": "not_scored",
+    "C": "not_scored"
+   },
+   "vote_kind": "unanimous"
+  },
+  {
+   "id": "D1_real37-b9687f63-667f-4703-89f8-a96c22cbd2a2_C010",
+   "label": "not_scored",
+   "source": "majority",
+   "votes": {
+    "A": "not_scored",
+    "B": "not_scored",
+    "C": "not_scored"
+   },
+   "vote_kind": "unanimous"
+  },
+  {
+   "id": "D1_real37-bcbde5a7-843c-4736-9faa-31f3490150c2_C000",
+   "label": "partially_supported",
+   "source": "majority",
+   "votes": {
+    "A": "partially_supported",
+    "B": "contradicted",
+    "C": "partially_supported"
+   },
+   "vote_kind": "majority"
+  },
+  {
+   "id": "D1_real37-c51704a3-cb5a-4d16-aae4-3f5654e08677_C000",
+   "label": "partially_supported",
+   "source": "majority",
+   "votes": {
+    "A": "partially_supported",
+    "B": "contradicted",
+    "C": "partially_supported"
+   },
+   "vote_kind": "majority"
+  },
+  {
+   "id": "D1_real37-c51704a3-cb5a-4d16-aae4-3f5654e08677_C006",
+   "label": "partially_supported",
+   "source": "majority",
+   "votes": {
+    "A": "partially_supported",
+    "B": "partially_supported",
+    "C": "not_scored"
+   },
+   "vote_kind": "majority"
+  },
+  {
+   "id": "D1_real37-c7d001a6-75c4-4d24-a262-b13bed85f3eb_C010",
+   "label": "not_scored",
+   "source": "majority",
+   "votes": {
+    "A": "supported",
+    "B": "not_scored",
+    "C": "not_scored"
+   },
+   "vote_kind": "majority"
+  },
+  {
+   "id": "D1_real37-c7d001a6-75c4-4d24-a262-b13bed85f3eb_C019",
+   "label": "not_scored",
+   "source": "majority",
+   "votes": {
+    "A": "not_scored",
+    "B": "partially_supported",
+    "C": "not_scored"
+   },
+   "vote_kind": "majority"
+  },
+  {
+   "id": "D1_real37-d4011e5b-1d68-489d-a252-41801f4e63e8_C001",
+   "label": "supported",
+   "source": "majority",
+   "votes": {
+    "A": "supported",
+    "B": "supported",
+    "C": "supported"
+   },
+   "vote_kind": "unanimous"
+  },
+  {
+   "id": "D1_real37-d4011e5b-1d68-489d-a252-41801f4e63e8_C002",
+   "label": "supported",
+   "source": "majority",
+   "votes": {
+    "A": "supported",
+    "B": "not_scored",
+    "C": "supported"
+   },
+   "vote_kind": "majority"
+  },
+  {
+   "id": "D1_real37-d9ba4ba9-abc9-4ecc-86e7-270673cbf414_C004",
+   "label": "not_scored",
+   "source": "majority",
+   "votes": {
+    "A": "not_scored",
+    "B": "not_scored",
+    "C": "not_scored"
+   },
+   "vote_kind": "unanimous"
+  },
+  {
+   "id": "D1_real37-d9ba4ba9-abc9-4ecc-86e7-270673cbf414_C005",
+   "label": "contradicted",
+   "source": "adjudicated",
+   "votes": {
+    "A": "partially_supported",
+    "B": "no_evidence",
+    "C": "contradicted"
+   },
+   "reason": "断言说1条严重错误，证据为严重错误0——同口径数字冲突"
+  },
+  {
+   "id": "D1_real37-d9ba4ba9-abc9-4ecc-86e7-270673cbf414_C010",
+   "label": "partially_supported",
+   "source": "majority",
+   "votes": {
+    "A": "not_scored",
+    "B": "partially_supported",
+    "C": "partially_supported"
+   },
+   "vote_kind": "majority"
+  },
+  {
+   "id": "D1_real37-ecd1eab3-dbae-402a-8fe5-7e31697c5a53_C001",
+   "label": "not_scored",
+   "source": "majority",
+   "votes": {
+    "A": "not_scored",
+    "B": "not_scored",
+    "C": "not_scored"
+   },
+   "vote_kind": "unanimous"
+  },
+  {
+   "id": "D1_real37-ecd1eab3-dbae-402a-8fe5-7e31697c5a53_C007",
+   "label": "supported",
+   "source": "majority",
+   "votes": {
+    "A": "supported",
+    "B": "supported",
+    "C": "supported"
+   },
+   "vote_kind": "unanimous"
+  },
+  {
+   "id": "D1_real37-ed41c98f-9b71-4006-a7a2-048ec8af8748_C003",
+   "label": "supported",
+   "source": "majority",
+   "votes": {
+    "A": "supported",
+    "B": "supported",
+    "C": "partially_supported"
+   },
+   "vote_kind": "majority"
+  },
+  {
+   "id": "D1_real37-ed41c98f-9b71-4006-a7a2-048ec8af8748_C012",
+   "label": "not_scored",
+   "source": "majority",
+   "votes": {
+    "A": "not_scored",
+    "B": "not_scored",
+    "C": "not_scored"
+   },
+   "vote_kind": "unanimous"
+  },
+  {
+   "id": "D1_real37-efbac9a9-21ea-4cac-bf3c-6f909bf830b4_C005",
+   "label": "partially_supported",
+   "source": "majority",
+   "votes": {
+    "A": "partially_supported",
+    "B": "partially_supported",
+    "C": "partially_supported"
+   },
+   "vote_kind": "unanimous"
+  },
+  {
+   "id": "D1_real37-efbac9a9-21ea-4cac-bf3c-6f909bf830b4_C007",
+   "label": "contradicted",
+   "source": "majority",
+   "votes": {
+    "A": "contradicted",
+    "B": "contradicted",
+    "C": "partially_supported"
+   },
+   "vote_kind": "majority"
+  },
+  {
+   "id": "D1_real37-f365d060-0a92-40c9-a764-57f75723adce_C000",
+   "label": "partially_supported",
+   "source": "majority",
+   "votes": {
+    "A": "partially_supported",
+    "B": "partially_supported",
+    "C": "partially_supported"
+   },
+   "vote_kind": "unanimous"
+  },
+  {
+   "id": "D1_real37-f365d060-0a92-40c9-a764-57f75723adce_C001",
+   "label": "partially_supported",
+   "source": "majority",
+   "votes": {
+    "A": "partially_supported",
+    "B": "partially_supported",
+    "C": "partially_supported"
+   },
+   "vote_kind": "unanimous"
+  },
+  {
+   "id": "D1_real37-f365d060-0a92-40c9-a764-57f75723adce_C004",
+   "label": "partially_supported",
+   "source": "majority",
+   "votes": {
+    "A": "partially_supported",
+    "B": "partially_supported",
+    "C": "not_scored"
+   },
+   "vote_kind": "majority"
+  },
+  {
+   "id": "D1_real37-ff101ded-c365-423a-8772-a101f48ff4b0_C007",
+   "label": "not_scored",
+   "source": "majority",
+   "votes": {
+    "A": "not_scored",
+    "B": "not_scored",
+    "C": "not_scored"
+   },
+   "vote_kind": "unanimous"
+  },
+  {
+   "id": "D1_real37-session-04bf7d5e-e50e-4e07-951a-a445bbe3837f_C008",
+   "label": "supported",
+   "source": "majority",
+   "votes": {
+    "A": "supported",
+    "B": "supported",
+    "C": "contradicted"
+   },
+   "vote_kind": "majority"
+  },
+  {
+   "id": "D1_real37-session-04bf7d5e-e50e-4e07-951a-a445bbe3837f_C011",
+   "label": "supported",
+   "source": "majority",
+   "votes": {
+    "A": "supported",
+    "B": "partially_supported",
+    "C": "supported"
+   },
+   "vote_kind": "majority"
+  },
+  {
+   "id": "D1_real37-session-04bf7d5e-e50e-4e07-951a-a445bbe3837f_C015",
+   "label": "not_scored",
+   "source": "majority",
+   "votes": {
+    "A": "not_scored",
+    "B": "not_scored",
+    "C": "not_scored"
+   },
+   "vote_kind": "unanimous"
+  },
+  {
+   "id": "D1_real37-session-13952d2a-930a-484d-9ee3-3a50436a75aa_C063",
+   "label": "partially_supported",
+   "source": "majority",
+   "votes": {
+    "A": "partially_supported",
+    "B": "not_scored",
+    "C": "partially_supported"
+   },
+   "vote_kind": "majority"
+  },
+  {
+   "id": "D1_real37-session-42cb832f-f923-48cb-8c1e-074f1a7089d8_C000",
+   "label": "not_scored",
+   "source": "majority",
+   "votes": {
+    "A": "not_scored",
+    "B": "not_scored",
+    "C": "not_scored"
+   },
+   "vote_kind": "unanimous"
+  },
+  {
+   "id": "D1_real37-session-42cb832f-f923-48cb-8c1e-074f1a7089d8_C004",
+   "label": "not_scored",
+   "source": "majority",
+   "votes": {
+    "A": "not_scored",
+    "B": "not_scored",
+    "C": "not_scored"
+   },
+   "vote_kind": "unanimous"
+  },
+  {
+   "id": "D1_real37-session-556c0a21-9539-40eb-90c8-155e1ff17b55_C005",
+   "label": "partially_supported",
+   "source": "majority",
+   "votes": {
+    "A": "partially_supported",
+    "B": "partially_supported",
+    "C": "partially_supported"
+   },
+   "vote_kind": "unanimous"
+  },
+  {
+   "id": "D1_real37-session-556c0a21-9539-40eb-90c8-155e1ff17b55_C006",
+   "label": "partially_supported",
+   "source": "majority",
+   "votes": {
+    "A": "partially_supported",
+    "B": "partially_supported",
+    "C": "partially_supported"
+   },
+   "vote_kind": "unanimous"
+  },
+  {
+   "id": "D1_real37-session-556c0a21-9539-40eb-90c8-155e1ff17b55_C010",
+   "label": "not_scored",
+   "source": "majority",
+   "votes": {
+    "A": "not_scored",
+    "B": "not_scored",
+    "C": "not_scored"
+   },
+   "vote_kind": "unanimous"
+  },
+  {
+   "id": "D1_real37-session-704db4db-9243-4315-86b7-29899cf88dde_C000",
+   "label": "no_evidence",
+   "source": "majority",
+   "votes": {
+    "A": "no_evidence",
+    "B": "no_evidence",
+    "C": "no_evidence"
+   },
+   "vote_kind": "unanimous"
+  },
+  {
+   "id": "D1_real37-session-704db4db-9243-4315-86b7-29899cf88dde_C002",
+   "label": "partially_supported",
+   "source": "majority",
+   "votes": {
+    "A": "partially_supported",
+    "B": "partially_supported",
+    "C": "partially_supported"
+   },
+   "vote_kind": "unanimous"
+  },
+  {
+   "id": "D1_real37-session-704db4db-9243-4315-86b7-29899cf88dde_C003",
+   "label": "contradicted",
+   "source": "majority",
+   "votes": {
+    "A": "partially_supported",
+    "B": "contradicted",
+    "C": "contradicted"
+   },
+   "vote_kind": "majority"
+  },
+  {
+   "id": "D1_real37-session-704db4db-9243-4315-86b7-29899cf88dde_C006",
+   "label": "not_scored",
+   "source": "majority",
+   "votes": {
+    "A": "not_scored",
+    "B": "not_scored",
+    "C": "not_scored"
+   },
+   "vote_kind": "unanimous"
+  },
+  {
+   "id": "D1_real37-session-704db4db-9243-4315-86b7-29899cf88dde_C007",
+   "label": "not_scored",
+   "source": "majority",
+   "votes": {
+    "A": "not_scored",
+    "B": "not_scored",
+    "C": "not_scored"
+   },
+   "vote_kind": "unanimous"
+  },
+  {
+   "id": "D1_real37-session-708c0f81-88a5-408d-945d-6d970ab94021_C009",
+   "label": "partially_supported",
+   "source": "majority",
+   "votes": {
+    "A": "partially_supported",
+    "B": "partially_supported",
+    "C": "partially_supported"
+   },
+   "vote_kind": "unanimous"
+  },
+  {
+   "id": "D1_real37-session-708c0f81-88a5-408d-945d-6d970ab94021_C015",
+   "label": "no_evidence",
+   "source": "majority",
+   "votes": {
+    "A": "no_evidence",
+    "B": "no_evidence",
+    "C": "partially_supported"
+   },
+   "vote_kind": "majority"
+  },
+  {
+   "id": "D1_real37-session-74a72936-8a85-46a2-ba0b-f8b738f326d6_C018",
+   "label": "not_scored",
+   "source": "majority",
+   "votes": {
+    "A": "not_scored",
+    "B": "not_scored",
+    "C": "not_scored"
+   },
+   "vote_kind": "unanimous"
+  },
+  {
+   "id": "D1_real37-session-c09e0dd3-6e42-463b-8305-d2b4e2737ff8_C007",
+   "label": "supported",
+   "source": "majority",
+   "votes": {
+    "A": "supported",
+    "B": "supported",
+    "C": "partially_supported"
+   },
+   "vote_kind": "majority"
+  },
+  {
+   "id": "D1_real37-session-f6e548cf-f236-4e54-9a7b-65ce1f58828c_C003",
+   "label": "not_scored",
+   "source": "majority",
+   "votes": {
+    "A": "not_scored",
+    "B": "not_scored",
+    "C": "not_scored"
+   },
+   "vote_kind": "unanimous"
+  },
+  {
+   "id": "D1_real37-session-f6e548cf-f236-4e54-9a7b-65ce1f58828c_C007",
+   "label": "not_scored",
+   "source": "majority",
+   "votes": {
+    "A": "not_scored",
+    "B": "not_scored",
+    "C": "not_scored"
+   },
+   "vote_kind": "unanimous"
+  },
+  {
+   "id": "WorkBuddy-session-ae82dc22-d513-4986-854a-3be2ea840600_C036",
+   "label": "partially_supported",
+   "source": "adjudicated",
+   "votes": {
+    "A": "contradicted",
+    "B": "supported",
+    "C": "partially_supported"
+   },
+   "reason": "磁盘扫描有执行、无相反证据；Panther 1.35GB 未在可见证据出现（截断）"
+  },
+  {
+   "id": "WorkBuddy-session-c3f710df-ac0a-4161-8ad2-1fc410457a9e_C000",
+   "label": "partially_supported",
+   "source": "majority",
+   "votes": {
+    "A": "partially_supported",
+    "B": "no_evidence",
+    "C": "partially_supported"
+   },
+   "vote_kind": "majority"
+  },
+  {
+   "id": "WorkBuddy-session-c3f710df-ac0a-4161-8ad2-1fc410457a9e_C002",
+   "label": "partially_supported",
+   "source": "majority",
+   "votes": {
+    "A": "partially_supported",
+    "B": "contradicted",
+    "C": "partially_supported"
+   },
+   "vote_kind": "majority"
+  },
+  {
+   "id": "WorkBuddy-session-c3f710df-ac0a-4161-8ad2-1fc410457a9e_C003",
+   "label": "not_scored",
+   "source": "majority",
+   "votes": {
+    "A": "not_scored",
+    "B": "not_scored",
+    "C": "not_scored"
+   },
+   "vote_kind": "unanimous"
+  },
+  {
+   "id": "WorkBuddy-session-c3f710df-ac0a-4161-8ad2-1fc410457a9e_C004",
+   "label": "partially_supported",
+   "source": "majority",
+   "votes": {
+    "A": "partially_supported",
+    "B": "partially_supported",
+    "C": "partially_supported"
+   },
+   "vote_kind": "unanimous"
+  },
+  {
+   "id": "WorkBuddy-session-c3f710df-ac0a-4161-8ad2-1fc410457a9e_C005",
+   "label": "supported",
+   "source": "majority",
+   "votes": {
+    "A": "supported",
+    "B": "supported",
+    "C": "partially_supported"
+   },
+   "vote_kind": "majority"
+  },
+  {
+   "id": "WorkBuddy-session-c3f710df-ac0a-4161-8ad2-1fc410457a9e_C009",
+   "label": "partially_supported",
+   "source": "majority",
+   "votes": {
+    "A": "partially_supported",
+    "B": "partially_supported",
+    "C": "partially_supported"
+   },
+   "vote_kind": "unanimous"
+  },
+  {
+   "id": "codex-1450bd74-41ee-49b5-ae38-515535e7cecf_C003",
+   "label": "partially_supported",
+   "source": "majority",
+   "votes": {
+    "A": "partially_supported",
+    "B": "partially_supported",
+    "C": "partially_supported"
+   },
+   "vote_kind": "unanimous"
+  },
+  {
+   "id": "codex-1450bd74-41ee-49b5-ae38-515535e7cecf_C005",
+   "label": "partially_supported",
+   "source": "majority",
+   "votes": {
+    "A": "partially_supported",
+    "B": "partially_supported",
+    "C": "partially_supported"
+   },
+   "vote_kind": "unanimous"
+  },
+  {
+   "id": "codex-1450bd74-41ee-49b5-ae38-515535e7cecf_C006",
+   "label": "partially_supported",
+   "source": "majority",
+   "votes": {
+    "A": "partially_supported",
+    "B": "partially_supported",
+    "C": "partially_supported"
+   },
+   "vote_kind": "unanimous"
+  },
+  {
+   "id": "codex-1450bd74-41ee-49b5-ae38-515535e7cecf_C010",
+   "label": "partially_supported",
+   "source": "majority",
+   "votes": {
+    "A": "partially_supported",
+    "B": "partially_supported",
+    "C": "partially_supported"
+   },
+   "vote_kind": "unanimous"
+  },
+  {
+   "id": "codex-1450bd74-41ee-49b5-ae38-515535e7cecf_C016",
+   "label": "supported",
+   "source": "majority",
+   "votes": {
+    "A": "supported",
+    "B": "supported",
+    "C": "supported"
+   },
+   "vote_kind": "unanimous"
+  },
+  {
+   "id": "codex-1450bd74-41ee-49b5-ae38-515535e7cecf_C027",
+   "label": "partially_supported",
+   "source": "majority",
+   "votes": {
+    "A": "partially_supported",
+    "B": "partially_supported",
+    "C": "partially_supported"
+   },
+   "vote_kind": "unanimous"
+  },
+  {
+   "id": "codex-1450bd74-41ee-49b5-ae38-515535e7cecf_C028",
+   "label": "supported",
+   "source": "majority",
+   "votes": {
+    "A": "supported",
+    "B": "supported",
+    "C": "no_evidence"
+   },
+   "vote_kind": "majority"
+  },
+  {
+   "id": "codex-1450bd74-41ee-49b5-ae38-515535e7cecf_C030",
+   "label": "not_scored",
+   "source": "majority",
+   "votes": {
+    "A": "not_scored",
+    "B": "not_scored",
+    "C": "not_scored"
+   },
+   "vote_kind": "unanimous"
+  },
+  {
+   "id": "codex-f0a57f89-d2a1-46b9-98a6-a11bece8d0bb_C000",
+   "label": "supported",
+   "source": "majority",
+   "votes": {
+    "A": "supported",
+    "B": "supported",
+    "C": "partially_supported"
+   },
+   "vote_kind": "majority"
+  },
+  {
+   "id": "codex-f0a57f89-d2a1-46b9-98a6-a11bece8d0bb_C001",
+   "label": "partially_supported",
+   "source": "majority",
+   "votes": {
+    "A": "partially_supported",
+    "B": "supported",
+    "C": "partially_supported"
+   },
+   "vote_kind": "majority"
+  },
+  {
+   "id": "codex-f0a57f89-d2a1-46b9-98a6-a11bece8d0bb_C002",
+   "label": "partially_supported",
+   "source": "majority",
+   "votes": {
+    "A": "partially_supported",
+    "B": "partially_supported",
+    "C": "partially_supported"
+   },
+   "vote_kind": "unanimous"
+  },
+  {
+   "id": "codex-f0a57f89-d2a1-46b9-98a6-a11bece8d0bb_C003",
+   "label": "partially_supported",
+   "source": "adjudicated",
+   "votes": {
+    "A": "partially_supported",
+    "B": "contradicted",
+    "C": "supported"
+   },
+   "reason": "22/117.6/120.0 命中；24.0-26.4 区间未在可见证据出现"
+  },
+  {
+   "id": "codex-f0a57f89-d2a1-46b9-98a6-a11bece8d0bb_C006",
+   "label": "partially_supported",
+   "source": "majority",
+   "votes": {
+    "A": "partially_supported",
+    "B": "partially_supported",
+    "C": "not_scored"
+   },
+   "vote_kind": "majority"
+  },
+  {
+   "id": "codex-f0a57f89-d2a1-46b9-98a6-a11bece8d0bb_C008",
+   "label": "supported",
+   "source": "majority",
+   "votes": {
+    "A": "supported",
+    "B": "supported",
+    "C": "supported"
+   },
+   "vote_kind": "unanimous"
+  },
+  {
+   "id": "codex-f0a57f89-d2a1-46b9-98a6-a11bece8d0bb_C011",
+   "label": "partially_supported",
+   "source": "majority",
+   "votes": {
+    "A": "partially_supported",
+    "B": "partially_supported",
+    "C": "partially_supported"
+   },
+   "vote_kind": "unanimous"
+  },
+  {
+   "id": "codex-f0a57f89-d2a1-46b9-98a6-a11bece8d0bb_C013",
+   "label": "partially_supported",
+   "source": "majority",
+   "votes": {
+    "A": "partially_supported",
+    "B": "partially_supported",
+    "C": "partially_supported"
+   },
+   "vote_kind": "unanimous"
+  },
+  {
+   "id": "codex-session-17ca5674-e5f1-4c0f-bf61-71e62d8a6ad8_C020",
+   "label": "supported",
+   "source": "majority",
+   "votes": {
+    "A": "supported",
+    "B": "supported",
+    "C": "partially_supported"
+   },
+   "vote_kind": "majority"
+  },
+  {
+   "id": "codex-session-17ca5674-e5f1-4c0f-bf61-71e62d8a6ad8_C036",
+   "label": "supported",
+   "source": "majority",
+   "votes": {
+    "A": "supported",
+    "B": "supported",
+    "C": "supported"
+   },
+   "vote_kind": "unanimous"
+  },
+  {
+   "id": "codex-session-17ca5674-e5f1-4c0f-bf61-71e62d8a6ad8_C039",
+   "label": "partially_supported",
+   "source": "majority",
+   "votes": {
+    "A": "partially_supported",
+    "B": "contradicted",
+    "C": "partially_supported"
+   },
+   "vote_kind": "majority"
+  },
+  {
+   "id": "codex-session-17ca5674-e5f1-4c0f-bf61-71e62d8a6ad8_C046",
+   "label": "partially_supported",
+   "source": "majority",
+   "votes": {
+    "A": "supported",
+    "B": "partially_supported",
+    "C": "partially_supported"
+   },
+   "vote_kind": "majority"
+  },
+  {
+   "id": "codex-session-17ca5674-e5f1-4c0f-bf61-71e62d8a6ad8_C059",
+   "label": "partially_supported",
+   "source": "majority",
+   "votes": {
+    "A": "partially_supported",
+    "B": "supported",
+    "C": "partially_supported"
+   },
+   "vote_kind": "majority"
+  },
+  {
+   "id": "codex-session-17ca5674-e5f1-4c0f-bf61-71e62d8a6ad8_C063",
+   "label": "not_scored",
+   "source": "majority",
+   "votes": {
+    "A": "not_scored",
+    "B": "not_scored",
+    "C": "not_scored"
+   },
+   "vote_kind": "unanimous"
+  },
+  {
+   "id": "codex-session-17ca5674-e5f1-4c0f-bf61-71e62d8a6ad8_C065",
+   "label": "not_scored",
+   "source": "majority",
+   "votes": {
+    "A": "not_scored",
+    "B": "not_scored",
+    "C": "not_scored"
+   },
+   "vote_kind": "unanimous"
+  },
+  {
+   "id": "codex-session-17ca5674-e5f1-4c0f-bf61-71e62d8a6ad8_C073",
+   "label": "not_scored",
+   "source": "majority",
+   "votes": {
+    "A": "not_scored",
+    "B": "not_scored",
+    "C": "not_scored"
+   },
+   "vote_kind": "unanimous"
+  },
+  {
+   "id": "codex-session-17ca5674-e5f1-4c0f-bf61-71e62d8a6ad8_C076",
+   "label": "not_scored",
+   "source": "majority",
+   "votes": {
+    "A": "not_scored",
+    "B": "not_scored",
+    "C": "not_scored"
+   },
+   "vote_kind": "unanimous"
+  },
+  {
+   "id": "codex-session-17ca5674-e5f1-4c0f-bf61-71e62d8a6ad8_C082",
+   "label": "supported",
+   "source": "majority",
+   "votes": {
+    "A": "supported",
+    "B": "supported",
+    "C": "supported"
+   },
+   "vote_kind": "unanimous"
+  },
+  {
+   "id": "codex-session-17ca5674-e5f1-4c0f-bf61-71e62d8a6ad8_C091",
+   "label": "partially_supported",
+   "source": "majority",
+   "votes": {
+    "A": "partially_supported",
+    "B": "partially_supported",
+    "C": "no_evidence"
+   },
+   "vote_kind": "majority"
+  },
+  {
+   "id": "codex-session-17ca5674-e5f1-4c0f-bf61-71e62d8a6ad8_C107",
+   "label": "not_scored",
+   "source": "majority",
+   "votes": {
+    "A": "not_scored",
+    "B": "not_scored",
+    "C": "not_scored"
+   },
+   "vote_kind": "unanimous"
+  },
+  {
+   "id": "codex-session-4110889a-b461-44ad-9372-dd3d924c088d_C012",
+   "label": "not_scored",
+   "source": "majority",
+   "votes": {
+    "A": "not_scored",
+    "B": "not_scored",
+    "C": "not_scored"
+   },
+   "vote_kind": "unanimous"
+  },
+  {
+   "id": "codex-session-4110889a-b461-44ad-9372-dd3d924c088d_C016",
+   "label": "not_scored",
+   "source": "majority",
+   "votes": {
+    "A": "not_scored",
+    "B": "not_scored",
+    "C": "not_scored"
+   },
+   "vote_kind": "unanimous"
+  },
+  {
+   "id": "codex-session-43d1c1e8-fe7a-4e5b-ab8c-a055e992a960_C006",
+   "label": "not_scored",
+   "source": "majority",
+   "votes": {
+    "A": "not_scored",
+    "B": "not_scored",
+    "C": "not_scored"
+   },
+   "vote_kind": "unanimous"
+  },
+  {
+   "id": "codex-session-5b68acd4-9e5f-4c0c-b7eb-20a160a98f2f_C010",
+   "label": "not_scored",
+   "source": "majority",
+   "votes": {
+    "A": "not_scored",
+    "B": "not_scored",
+    "C": "not_scored"
+   },
+   "vote_kind": "unanimous"
+  },
+  {
+   "id": "codex-session-876de003-4718-4d0d-bfb6-12ca0b93eee6_C053",
+   "label": "not_scored",
+   "source": "majority",
+   "votes": {
+    "A": "not_scored",
+    "B": "not_scored",
+    "C": "not_scored"
+   },
+   "vote_kind": "unanimous"
+  },
+  {
+   "id": "codex-session-876de003-4718-4d0d-bfb6-12ca0b93eee6_C096",
+   "label": "partially_supported",
+   "source": "majority",
+   "votes": {
+    "A": "partially_supported",
+    "B": "partially_supported",
+    "C": "partially_supported"
+   },
+   "vote_kind": "unanimous"
+  },
+  {
+   "id": "codex-session-876de003-4718-4d0d-bfb6-12ca0b93eee6_C100",
+   "label": "supported",
+   "source": "majority",
+   "votes": {
+    "A": "supported",
+    "B": "supported",
+    "C": "supported"
+   },
+   "vote_kind": "unanimous"
+  },
+  {
+   "id": "codex-session-876de003-4718-4d0d-bfb6-12ca0b93eee6_C142",
+   "label": "supported",
+   "source": "majority",
+   "votes": {
+    "A": "supported",
+    "B": "supported",
+    "C": "supported"
+   },
+   "vote_kind": "unanimous"
+  },
+  {
+   "id": "codex-session-876de003-4718-4d0d-bfb6-12ca0b93eee6_C171",
+   "label": "not_scored",
+   "source": "majority",
+   "votes": {
+    "A": "not_scored",
+    "B": "not_scored",
+    "C": "not_scored"
+   },
+   "vote_kind": "unanimous"
+  },
+  {
+   "id": "codex-session-876de003-4718-4d0d-bfb6-12ca0b93eee6_C213",
+   "label": "not_scored",
+   "source": "majority",
+   "votes": {
+    "A": "not_scored",
+    "B": "not_scored",
+    "C": "partially_supported"
+   },
+   "vote_kind": "majority"
+  },
+  {
+   "id": "codex-session-876de003-4718-4d0d-bfb6-12ca0b93eee6_C278",
+   "label": "partially_supported",
+   "source": "majority",
+   "votes": {
+    "A": "contradicted",
+    "B": "partially_supported",
+    "C": "partially_supported"
+   },
+   "vote_kind": "majority"
+  },
+  {
+   "id": "codex-session-881b3b97-1d07-44a6-b512-d3ccf53c1267_C002",
+   "label": "not_scored",
+   "source": "majority",
+   "votes": {
+    "A": "not_scored",
+    "B": "partially_supported",
+    "C": "not_scored"
+   },
+   "vote_kind": "majority"
+  },
+  {
+   "id": "codex-session-881b3b97-1d07-44a6-b512-d3ccf53c1267_C003",
+   "label": "not_scored",
+   "source": "majority",
+   "votes": {
+    "A": "not_scored",
+    "B": "not_scored",
+    "C": "not_scored"
+   },
+   "vote_kind": "unanimous"
+  },
+  {
+   "id": "codex-session-881b3b97-1d07-44a6-b512-d3ccf53c1267_C004",
+   "label": "supported",
+   "source": "majority",
+   "votes": {
+    "A": "supported",
+    "B": "supported",
+    "C": "not_scored"
+   },
+   "vote_kind": "majority"
+  },
+  {
+   "id": "codex-session-881b3b97-1d07-44a6-b512-d3ccf53c1267_C011",
+   "label": "partially_supported",
+   "source": "majority",
+   "votes": {
+    "A": "partially_supported",
+    "B": "partially_supported",
+    "C": "partially_supported"
+   },
+   "vote_kind": "unanimous"
+  },
+  {
+   "id": "codex-session-881b3b97-1d07-44a6-b512-d3ccf53c1267_C012",
+   "label": "partially_supported",
+   "source": "majority",
+   "votes": {
+    "A": "partially_supported",
+    "B": "partially_supported",
+    "C": "partially_supported"
+   },
+   "vote_kind": "unanimous"
+  },
+  {
+   "id": "codex-session-881b3b97-1d07-44a6-b512-d3ccf53c1267_C013",
+   "label": "partially_supported",
+   "source": "majority",
+   "votes": {
+    "A": "partially_supported",
+    "B": "partially_supported",
+    "C": "partially_supported"
+   },
+   "vote_kind": "unanimous"
+  },
+  {
+   "id": "codex-session-881b3b97-1d07-44a6-b512-d3ccf53c1267_C014",
+   "label": "not_scored",
+   "source": "majority",
+   "votes": {
+    "A": "not_scored",
+    "B": "not_scored",
+    "C": "not_scored"
+   },
+   "vote_kind": "unanimous"
+  },
+  {
+   "id": "codex-session-881b3b97-1d07-44a6-b512-d3ccf53c1267_C018",
+   "label": "partially_supported",
+   "source": "majority",
+   "votes": {
+    "A": "partially_supported",
+    "B": "partially_supported",
+    "C": "partially_supported"
+   },
+   "vote_kind": "unanimous"
+  },
+  {
+   "id": "codex-session-881b3b97-1d07-44a6-b512-d3ccf53c1267_C022",
+   "label": "partially_supported",
+   "source": "majority",
+   "votes": {
+    "A": "partially_supported",
+    "B": "partially_supported",
+    "C": "partially_supported"
+   },
+   "vote_kind": "unanimous"
+  },
+  {
+   "id": "codex-session-881b3b97-1d07-44a6-b512-d3ccf53c1267_C023",
+   "label": "partially_supported",
+   "source": "majority",
+   "votes": {
+    "A": "partially_supported",
+    "B": "partially_supported",
+    "C": "partially_supported"
+   },
+   "vote_kind": "unanimous"
+  },
+  {
+   "id": "codex-session-881b3b97-1d07-44a6-b512-d3ccf53c1267_C025",
+   "label": "not_scored",
+   "source": "majority",
+   "votes": {
+    "A": "not_scored",
+    "B": "not_scored",
+    "C": "not_scored"
+   },
+   "vote_kind": "unanimous"
+  },
+  {
+   "id": "codex-session-881b3b97-1d07-44a6-b512-d3ccf53c1267_C026",
+   "label": "not_scored",
+   "source": "majority",
+   "votes": {
+    "A": "not_scored",
+    "B": "supported",
+    "C": "not_scored"
+   },
+   "vote_kind": "majority"
+  },
+  {
+   "id": "codex-session-99dc5805-65c1-4a8c-ab34-e2bd1f04d02d_C001",
+   "label": "supported",
+   "source": "majority",
+   "votes": {
+    "A": "supported",
+    "B": "supported",
+    "C": "supported"
+   },
+   "vote_kind": "unanimous"
+  },
+  {
+   "id": "codex-session-af00903b-f0cc-4a40-9158-d473d235c09d_C000",
+   "label": "partially_supported",
+   "source": "majority",
+   "votes": {
+    "A": "partially_supported",
+    "B": "partially_supported",
+    "C": "partially_supported"
+   },
+   "vote_kind": "unanimous"
+  },
+  {
+   "id": "codex-session-af00903b-f0cc-4a40-9158-d473d235c09d_C003",
+   "label": "not_scored",
+   "source": "majority",
+   "votes": {
+    "A": "not_scored",
+    "B": "not_scored",
+    "C": "not_scored"
+   },
+   "vote_kind": "unanimous"
+  },
+  {
+   "id": "codex-session-af00903b-f0cc-4a40-9158-d473d235c09d_C015",
+   "label": "not_scored",
+   "source": "majority",
+   "votes": {
+    "A": "not_scored",
+    "B": "not_scored",
+    "C": "not_scored"
+   },
+   "vote_kind": "unanimous"
+  },
+  {
+   "id": "codex-session-c1afd213-f258-461e-9b2e-508186fb5604_C006",
+   "label": "partially_supported",
+   "source": "majority",
+   "votes": {
+    "A": "partially_supported",
+    "B": "partially_supported",
+    "C": "not_scored"
+   },
+   "vote_kind": "majority"
+  },
+  {
+   "id": "codex-session-c1afd213-f258-461e-9b2e-508186fb5604_C014",
+   "label": "partially_supported",
+   "source": "majority",
+   "votes": {
+    "A": "partially_supported",
+    "B": "partially_supported",
+    "C": "partially_supported"
+   },
+   "vote_kind": "unanimous"
+  },
+  {
+   "id": "codex-session-c1afd213-f258-461e-9b2e-508186fb5604_C015",
+   "label": "partially_supported",
+   "source": "majority",
+   "votes": {
+    "A": "partially_supported",
+    "B": "partially_supported",
+    "C": "not_scored"
+   },
+   "vote_kind": "majority"
+  },
+  {
+   "id": "codex-session-c1afd213-f258-461e-9b2e-508186fb5604_C024",
+   "label": "not_scored",
+   "source": "majority",
+   "votes": {
+    "A": "not_scored",
+    "B": "not_scored",
+    "C": "not_scored"
+   },
+   "vote_kind": "unanimous"
+  },
+  {
+   "id": "codex-session-c1afd213-f258-461e-9b2e-508186fb5604_C030",
+   "label": "partially_supported",
+   "source": "majority",
+   "votes": {
+    "A": "partially_supported",
+    "B": "partially_supported",
+    "C": "partially_supported"
+   },
+   "vote_kind": "unanimous"
+  },
+  {
+   "id": "codex-session-c1afd213-f258-461e-9b2e-508186fb5604_C037",
+   "label": "not_scored",
+   "source": "majority",
+   "votes": {
+    "A": "not_scored",
+    "B": "not_scored",
+    "C": "not_scored"
+   },
+   "vote_kind": "unanimous"
+  },
+  {
+   "id": "codex-session-c1afd213-f258-461e-9b2e-508186fb5604_C041",
+   "label": "not_scored",
+   "source": "majority",
+   "votes": {
+    "A": "not_scored",
+    "B": "not_scored",
+    "C": "not_scored"
+   },
+   "vote_kind": "unanimous"
+  },
+  {
+   "id": "codex-session-c1afd213-f258-461e-9b2e-508186fb5604_C046",
+   "label": "not_scored",
+   "source": "majority",
+   "votes": {
+    "A": "not_scored",
+    "B": "not_scored",
+    "C": "not_scored"
+   },
+   "vote_kind": "unanimous"
+  },
+  {
+   "id": "codex-session-d05793a0-40a0-4226-8817-4959533899f3_C054",
+   "label": "partially_supported",
+   "source": "majority",
+   "votes": {
+    "A": "partially_supported",
+    "B": "partially_supported",
+    "C": "partially_supported"
+   },
+   "vote_kind": "unanimous"
+  },
+  {
+   "id": "codex-session-d05793a0-40a0-4226-8817-4959533899f3_C065",
+   "label": "partially_supported",
+   "source": "majority",
+   "votes": {
+    "A": "partially_supported",
+    "B": "partially_supported",
+    "C": "partially_supported"
+   },
+   "vote_kind": "unanimous"
+  },
+  {
+   "id": "codex-session-d05793a0-40a0-4226-8817-4959533899f3_C191",
+   "label": "not_scored",
+   "source": "majority",
+   "votes": {
+    "A": "not_scored",
+    "B": "not_scored",
+    "C": "not_scored"
+   },
+   "vote_kind": "unanimous"
+  },
+  {
+   "id": "codex-session-d05793a0-40a0-4226-8817-4959533899f3_C237",
+   "label": "partially_supported",
+   "source": "majority",
+   "votes": {
+    "A": "partially_supported",
+    "B": "partially_supported",
+    "C": "partially_supported"
+   },
+   "vote_kind": "unanimous"
+  },
+  {
+   "id": "codex-session-d05793a0-40a0-4226-8817-4959533899f3_C311",
+   "label": "not_scored",
+   "source": "majority",
+   "votes": {
+    "A": "not_scored",
+    "B": "not_scored",
+    "C": "not_scored"
+   },
+   "vote_kind": "unanimous"
+  },
+  {
+   "id": "codex-session-d05793a0-40a0-4226-8817-4959533899f3_C343",
+   "label": "partially_supported",
+   "source": "majority",
+   "votes": {
+    "A": "partially_supported",
+    "B": "partially_supported",
+    "C": "partially_supported"
+   },
+   "vote_kind": "unanimous"
+  },
+  {
+   "id": "codex-session-d05793a0-40a0-4226-8817-4959533899f3_C368",
+   "label": "partially_supported",
+   "source": "majority",
+   "votes": {
+    "A": "partially_supported",
+    "B": "partially_supported",
+    "C": "partially_supported"
+   },
+   "vote_kind": "unanimous"
+  },
+  {
+   "id": "codex-session-e145707c-cabb-447e-b7c7-a3d359185658_C044",
+   "label": "contradicted",
+   "source": "majority",
+   "votes": {
+    "A": "contradicted",
+    "B": "contradicted",
+    "C": "partially_supported"
+   },
+   "vote_kind": "majority"
+  },
+  {
+   "id": "deepseek-300cc7a3-83fb-428e-941c-10ab56cc28f8_C000",
+   "label": "not_scored",
+   "source": "majority",
+   "votes": {
+    "A": "not_scored",
+    "B": "not_scored",
+    "C": "partially_supported"
+   },
+   "vote_kind": "majority"
+  },
+  {
+   "id": "deepseek-300cc7a3-83fb-428e-941c-10ab56cc28f8_C001",
+   "label": "contradicted",
+   "source": "majority",
+   "votes": {
+    "A": "contradicted",
+    "B": "contradicted",
+    "C": "not_scored"
+   },
+   "vote_kind": "majority"
+  },
+  {
+   "id": "deepseek-300cc7a3-83fb-428e-941c-10ab56cc28f8_C003",
+   "label": "partially_supported",
+   "source": "majority",
+   "votes": {
+    "A": "partially_supported",
+    "B": "partially_supported",
+    "C": "partially_supported"
+   },
+   "vote_kind": "unanimous"
+  },
+  {
+   "id": "deepseek-300cc7a3-83fb-428e-941c-10ab56cc28f8_C004",
+   "label": "not_scored",
+   "source": "majority",
+   "votes": {
+    "A": "no_evidence",
+    "B": "not_scored",
+    "C": "not_scored"
+   },
+   "vote_kind": "majority"
+  },
+  {
+   "id": "deepseek-300cc7a3-83fb-428e-941c-10ab56cc28f8_C005",
+   "label": "not_scored",
+   "source": "majority",
+   "votes": {
+    "A": "not_scored",
+    "B": "not_scored",
+    "C": "partially_supported"
+   },
+   "vote_kind": "majority"
+  },
+  {
+   "id": "deepseek-300cc7a3-83fb-428e-941c-10ab56cc28f8_C007",
+   "label": "partially_supported",
+   "source": "majority",
+   "votes": {
+    "A": "partially_supported",
+    "B": "no_evidence",
+    "C": "partially_supported"
+   },
+   "vote_kind": "majority"
+  },
+  {
+   "id": "deepseek-631b7fd8-c3ae-472a-a03d-ddc4c5b305cc_C000",
+   "label": "supported",
+   "source": "majority",
+   "votes": {
+    "A": "supported",
+    "B": "supported",
+    "C": "supported"
+   },
+   "vote_kind": "unanimous"
+  },
+  {
+   "id": "deepseek-631b7fd8-c3ae-472a-a03d-ddc4c5b305cc_C009",
+   "label": "partially_supported",
+   "source": "adjudicated",
+   "votes": {
+    "A": "partially_supported",
+    "B": "supported",
+    "C": "not_scored"
+   },
+   "reason": "asar 搜索结果在；BASE_URL_ENV 具体位置未在可见证据出现"
+  },
+  {
+   "id": "deepseek-664694a2-eacc-43a2-82eb-102fcccea393_C007",
+   "label": "partially_supported",
+   "source": "majority",
+   "votes": {
+    "A": "partially_supported",
+    "B": "partially_supported",
+    "C": "partially_supported"
+   },
+   "vote_kind": "unanimous"
+  },
+  {
+   "id": "deepseek-91903b0f-2580-4469-8f19-aaa9511d9f1b_C001",
+   "label": "supported",
+   "source": "majority",
+   "votes": {
+    "A": "supported",
+    "B": "contradicted",
+    "C": "supported"
+   },
+   "vote_kind": "majority"
+  },
+  {
+   "id": "deepseek-91903b0f-2580-4469-8f19-aaa9511d9f1b_C002",
+   "label": "partially_supported",
+   "source": "adjudicated",
+   "votes": {
+    "A": "partially_supported",
+    "B": "contradicted",
+    "C": "supported"
+   },
+   "reason": "路径与 30064 bytes 命中；596 行未确认（显示 Lines:5）"
+  },
+  {
+   "id": "deepseek-91903b0f-2580-4469-8f19-aaa9511d9f1b_C003",
+   "label": "partially_supported",
+   "source": "majority",
+   "votes": {
+    "A": "partially_supported",
+    "B": "partially_supported",
+    "C": "partially_supported"
+   },
+   "vote_kind": "unanimous"
+  },
+  {
+   "id": "deepseek-91903b0f-2580-4469-8f19-aaa9511d9f1b_C009",
+   "label": "not_scored",
+   "source": "majority",
+   "votes": {
+    "A": "supported",
+    "B": "not_scored",
+    "C": "not_scored"
+   },
+   "vote_kind": "majority"
+  },
+  {
+   "id": "deepseek-91903b0f-2580-4469-8f19-aaa9511d9f1b_C010",
+   "label": "partially_supported",
+   "source": "majority",
+   "votes": {
+    "A": "partially_supported",
+    "B": "partially_supported",
+    "C": "partially_supported"
+   },
+   "vote_kind": "unanimous"
+  },
+  {
+   "id": "deepseek-91903b0f-2580-4469-8f19-aaa9511d9f1b_C013",
+   "label": "partially_supported",
+   "source": "majority",
+   "votes": {
+    "A": "partially_supported",
+    "B": "partially_supported",
+    "C": "partially_supported"
+   },
+   "vote_kind": "unanimous"
+  },
+  {
+   "id": "deepseek-91903b0f-2580-4469-8f19-aaa9511d9f1b_C015",
+   "label": "partially_supported",
+   "source": "majority",
+   "votes": {
+    "A": "partially_supported",
+    "B": "partially_supported",
+    "C": "partially_supported"
+   },
+   "vote_kind": "unanimous"
+  },
+  {
+   "id": "deepseek-session-07347916-fd67-4ff7-95e5-b9bc3c489cd0_C003",
+   "label": "supported",
+   "source": "adjudicated",
+   "votes": {
+    "A": "supported",
+    "B": "contradicted",
+    "C": "partially_supported"
+   },
+   "reason": "13:10:48 时间戳命中；stderr 是命令语法错误，与断言无关"
+  },
+  {
+   "id": "deepseek-session-07347916-fd67-4ff7-95e5-b9bc3c489cd0_C006",
+   "label": "not_scored",
+   "source": "majority",
+   "votes": {
+    "A": "not_scored",
+    "B": "not_scored",
+    "C": "not_scored"
+   },
+   "vote_kind": "unanimous"
+  },
+  {
+   "id": "deepseek-session-07347916-fd67-4ff7-95e5-b9bc3c489cd0_C007",
+   "label": "supported",
+   "source": "majority",
+   "votes": {
+    "A": "supported",
+    "B": "supported",
+    "C": "supported"
+   },
+   "vote_kind": "unanimous"
+  },
+  {
+   "id": "deepseek-session-2e798cb0-4581-4c1d-9d37-d57dd87a945e_C000",
+   "label": "not_scored",
+   "source": "majority",
+   "votes": {
+    "A": "not_scored",
+    "B": "not_scored",
+    "C": "not_scored"
+   },
+   "vote_kind": "unanimous"
+  },
+  {
+   "id": "deepseek-session-2e798cb0-4581-4c1d-9d37-d57dd87a945e_C001",
+   "label": "partially_supported",
+   "source": "majority",
+   "votes": {
+    "A": "partially_supported",
+    "B": "partially_supported",
+    "C": "not_scored"
+   },
+   "vote_kind": "majority"
+  },
+  {
+   "id": "deepseek-session-2e798cb0-4581-4c1d-9d37-d57dd87a945e_C002",
+   "label": "not_scored",
+   "source": "majority",
+   "votes": {
+    "A": "not_scored",
+    "B": "not_scored",
+    "C": "not_scored"
+   },
+   "vote_kind": "unanimous"
+  },
+  {
+   "id": "deepseek-session-2e798cb0-4581-4c1d-9d37-d57dd87a945e_C003",
+   "label": "not_scored",
+   "source": "majority",
+   "votes": {
+    "A": "not_scored",
+    "B": "not_scored",
+    "C": "not_scored"
+   },
+   "vote_kind": "unanimous"
+  },
+  {
+   "id": "deepseek-session-2eba1a99-f5b2-4f76-8704-e18a9b4eb587_C044",
+   "label": "supported",
+   "source": "majority",
+   "votes": {
+    "A": "supported",
+    "B": "supported",
+    "C": "supported"
+   },
+   "vote_kind": "unanimous"
+  },
+  {
+   "id": "deepseek-session-2eba1a99-f5b2-4f76-8704-e18a9b4eb587_C048",
+   "label": "not_scored",
+   "source": "majority",
+   "votes": {
+    "A": "not_scored",
+    "B": "supported",
+    "C": "not_scored"
+   },
+   "vote_kind": "majority"
+  },
+  {
+   "id": "deepseek-session-4f5c3d03-996f-4f20-9aea-54d7a6fe2544_C037",
+   "label": "not_scored",
+   "source": "majority",
+   "votes": {
+    "A": "partially_supported",
+    "B": "not_scored",
+    "C": "not_scored"
+   },
+   "vote_kind": "majority"
+  },
+  {
+   "id": "deepseek-session-7694453e-ac3b-4f51-b47d-b7ec3e766574_C003",
+   "label": "partially_supported",
+   "source": "majority",
+   "votes": {
+    "A": "partially_supported",
+    "B": "partially_supported",
+    "C": "partially_supported"
+   },
+   "vote_kind": "unanimous"
+  },
+  {
+   "id": "deepseek-session-7694453e-ac3b-4f51-b47d-b7ec3e766574_C005",
+   "label": "supported",
+   "source": "majority",
+   "votes": {
+    "A": "supported",
+    "B": "supported",
+    "C": "supported"
+   },
+   "vote_kind": "unanimous"
+  },
+  {
+   "id": "deepseek-session-7694453e-ac3b-4f51-b47d-b7ec3e766574_C008",
+   "label": "supported",
+   "source": "majority",
+   "votes": {
+    "A": "supported",
+    "B": "supported",
+    "C": "supported"
+   },
+   "vote_kind": "unanimous"
+  },
+  {
+   "id": "deepseek-session-7694453e-ac3b-4f51-b47d-b7ec3e766574_C009",
+   "label": "no_evidence",
+   "source": "majority",
+   "votes": {
+    "A": "no_evidence",
+    "B": "not_scored",
+    "C": "no_evidence"
+   },
+   "vote_kind": "majority"
+  },
+  {
+   "id": "deepseek-session-7694453e-ac3b-4f51-b47d-b7ec3e766574_C011",
+   "label": "partially_supported",
+   "source": "majority",
+   "votes": {
+    "A": "partially_supported",
+    "B": "partially_supported",
+    "C": "partially_supported"
+   },
+   "vote_kind": "unanimous"
+  },
+  {
+   "id": "deepseek-session-7694453e-ac3b-4f51-b47d-b7ec3e766574_C013",
+   "label": "contradicted",
+   "source": "majority",
+   "votes": {
+    "A": "partially_supported",
+    "B": "contradicted",
+    "C": "contradicted"
+   },
+   "vote_kind": "majority"
+  },
+  {
+   "id": "deepseek-session-7694453e-ac3b-4f51-b47d-b7ec3e766574_C016",
+   "label": "partially_supported",
+   "source": "majority",
+   "votes": {
+    "A": "partially_supported",
+    "B": "partially_supported",
+    "C": "partially_supported"
+   },
+   "vote_kind": "unanimous"
+  },
+  {
+   "id": "deepseek-session-7694453e-ac3b-4f51-b47d-b7ec3e766574_C018",
+   "label": "not_scored",
+   "source": "majority",
+   "votes": {
+    "A": "not_scored",
+    "B": "not_scored",
+    "C": "not_scored"
+   },
+   "vote_kind": "unanimous"
+  },
+  {
+   "id": "deepseek-session-7694453e-ac3b-4f51-b47d-b7ec3e766574_C020",
+   "label": "partially_supported",
+   "source": "majority",
+   "votes": {
+    "A": "partially_supported",
+    "B": "not_scored",
+    "C": "partially_supported"
+   },
+   "vote_kind": "majority"
+  },
+  {
+   "id": "deepseek-session-9c152447-bef7-432c-8ba6-2ed39e022f59_C000",
+   "label": "partially_supported",
+   "source": "majority",
+   "votes": {
+    "A": "partially_supported",
+    "B": "partially_supported",
+    "C": "partially_supported"
+   },
+   "vote_kind": "unanimous"
+  },
+  {
+   "id": "deepseek-session-9c152447-bef7-432c-8ba6-2ed39e022f59_C003",
+   "label": "contradicted",
+   "source": "majority",
+   "votes": {
+    "A": "contradicted",
+    "B": "contradicted",
+    "C": "partially_supported"
+   },
+   "vote_kind": "majority"
+  },
+  {
+   "id": "deepseek-session-9c152447-bef7-432c-8ba6-2ed39e022f59_C008",
+   "label": "partially_supported",
+   "source": "majority",
+   "votes": {
+    "A": "partially_supported",
+    "B": "partially_supported",
+    "C": "partially_supported"
+   },
+   "vote_kind": "unanimous"
+  },
+  {
+   "id": "deepseek-session-9c152447-bef7-432c-8ba6-2ed39e022f59_C021",
+   "label": "partially_supported",
+   "source": "majority",
+   "votes": {
+    "A": "partially_supported",
+    "B": "partially_supported",
+    "C": "partially_supported"
+   },
+   "vote_kind": "unanimous"
+  },
+  {
+   "id": "deepseek-session-9c152447-bef7-432c-8ba6-2ed39e022f59_C060",
+   "label": "partially_supported",
+   "source": "majority",
+   "votes": {
+    "A": "partially_supported",
+    "B": "contradicted",
+    "C": "partially_supported"
+   },
+   "vote_kind": "majority"
+  },
+  {
+   "id": "deepseek-session-9c152447-bef7-432c-8ba6-2ed39e022f59_C062",
+   "label": "partially_supported",
+   "source": "majority",
+   "votes": {
+    "A": "partially_supported",
+    "B": "partially_supported",
+    "C": "partially_supported"
+   },
+   "vote_kind": "unanimous"
+  },
+  {
+   "id": "deepseek-session-9c152447-bef7-432c-8ba6-2ed39e022f59_C075",
+   "label": "not_scored",
+   "source": "majority",
+   "votes": {
+    "A": "not_scored",
+    "B": "not_scored",
+    "C": "not_scored"
+   },
+   "vote_kind": "unanimous"
+  },
+  {
+   "id": "deepseek-session-9c152447-bef7-432c-8ba6-2ed39e022f59_C082",
+   "label": "supported",
+   "source": "majority",
+   "votes": {
+    "A": "supported",
+    "B": "partially_supported",
+    "C": "supported"
+   },
+   "vote_kind": "majority"
+  },
+  {
+   "id": "deepseek-session-9c152447-bef7-432c-8ba6-2ed39e022f59_C086",
+   "label": "supported",
+   "source": "majority",
+   "votes": {
+    "A": "supported",
+    "B": "supported",
+    "C": "supported"
+   },
+   "vote_kind": "unanimous"
+  },
+  {
+   "id": "deepseek-session-9c152447-bef7-432c-8ba6-2ed39e022f59_C087",
+   "label": "not_scored",
+   "source": "majority",
+   "votes": {
+    "A": "not_scored",
+    "B": "not_scored",
+    "C": "not_scored"
+   },
+   "vote_kind": "unanimous"
+  },
+  {
+   "id": "deepseek-session-a9639bee-9f07-4343-b711-54a6ddf9a686_C001",
+   "label": "not_scored",
+   "source": "majority",
+   "votes": {
+    "A": "not_scored",
+    "B": "supported",
+    "C": "not_scored"
+   },
+   "vote_kind": "majority"
+  },
+  {
+   "id": "deepseek-session-a9639bee-9f07-4343-b711-54a6ddf9a686_C004",
+   "label": "not_scored",
+   "source": "majority",
+   "votes": {
+    "A": "not_scored",
+    "B": "partially_supported",
+    "C": "not_scored"
+   },
+   "vote_kind": "majority"
+  },
+  {
+   "id": "deepseek-session-a9639bee-9f07-4343-b711-54a6ddf9a686_C005",
+   "label": "not_scored",
+   "source": "majority",
+   "votes": {
+    "A": "not_scored",
+    "B": "not_scored",
+    "C": "not_scored"
+   },
+   "vote_kind": "unanimous"
+  },
+  {
+   "id": "deepseek-session-ca619df1-595f-4c48-a934-0574bea423fd_C112",
+   "label": "partially_supported",
+   "source": "majority",
+   "votes": {
+    "A": "partially_supported",
+    "B": "partially_supported",
+    "C": "partially_supported"
+   },
+   "vote_kind": "unanimous"
+  },
+  {
+   "id": "deepseek-session-cc6e7aa1-70b2-4140-8e6a-23b712218f06_C023",
+   "label": "not_scored",
+   "source": "majority",
+   "votes": {
+    "A": "not_scored",
+    "B": "not_scored",
+    "C": "partially_supported"
+   },
+   "vote_kind": "majority"
+  },
+  {
+   "id": "deepseek-session-cc6e7aa1-70b2-4140-8e6a-23b712218f06_C034",
+   "label": "partially_supported",
+   "source": "majority",
+   "votes": {
+    "A": "partially_supported",
+    "B": "partially_supported",
+    "C": "partially_supported"
+   },
+   "vote_kind": "unanimous"
+  },
+  {
+   "id": "deepseek-session-cd40fc74-ac0f-4f00-bb3f-3c43bc54a13b_C018",
+   "label": "supported",
+   "source": "majority",
+   "votes": {
+    "A": "supported",
+    "B": "supported",
+    "C": "supported"
+   },
+   "vote_kind": "unanimous"
+  },
+  {
+   "id": "deepseek-session-cd40fc74-ac0f-4f00-bb3f-3c43bc54a13b_C061",
+   "label": "supported",
+   "source": "majority",
+   "votes": {
+    "A": "supported",
+    "B": "supported",
+    "C": "partially_supported"
+   },
+   "vote_kind": "majority"
+  },
+  {
+   "id": "deepseek-session-e25e4a46-3a77-431e-921f-b01e535c6831_C012",
+   "label": "partially_supported",
+   "source": "majority",
+   "votes": {
+    "A": "partially_supported",
+    "B": "partially_supported",
+    "C": "not_scored"
+   },
+   "vote_kind": "majority"
+  },
+  {
+   "id": "deepseek-session-e25e4a46-3a77-431e-921f-b01e535c6831_C024",
+   "label": "not_scored",
+   "source": "majority",
+   "votes": {
+    "A": "not_scored",
+    "B": "not_scored",
+    "C": "not_scored"
+   },
+   "vote_kind": "unanimous"
+  },
+  {
+   "id": "deepseek-session-f0973fdd-32c5-464f-a5c9-dd19d654deff_C104",
+   "label": "partially_supported",
+   "source": "majority",
+   "votes": {
+    "A": "partially_supported",
+    "B": "partially_supported",
+    "C": "partially_supported"
+   },
+   "vote_kind": "unanimous"
+  },
+  {
+   "id": "deepseek-session-f0973fdd-32c5-464f-a5c9-dd19d654deff_C133",
+   "label": "supported",
+   "source": "majority",
+   "votes": {
+    "A": "supported",
+    "B": "supported",
+    "C": "supported"
+   },
+   "vote_kind": "unanimous"
+  },
+  {
+   "id": "deepseek-session-f0973fdd-32c5-464f-a5c9-dd19d654deff_C257",
+   "label": "partially_supported",
+   "source": "adjudicated",
+   "votes": {
+    "A": "partially_supported",
+    "B": "contradicted",
+    "C": "not_scored"
+   },
+   "reason": "两个不同插件只落实一个（市场记录仅 tsonglew），部分支持"
+  },
+  {
+   "id": "deepseek-session-f0973fdd-32c5-464f-a5c9-dd19d654deff_C273",
+   "label": "not_scored",
+   "source": "majority",
+   "votes": {
+    "A": "partially_supported",
+    "B": "not_scored",
+    "C": "not_scored"
+   },
+   "vote_kind": "majority"
+  },
+  {
+   "id": "deepseek-session-f0973fdd-32c5-464f-a5c9-dd19d654deff_C350",
+   "label": "partially_supported",
+   "source": "adjudicated",
+   "votes": {
+    "A": "supported",
+    "B": "not_scored",
+    "C": "partially_supported"
+   },
+   "reason": "edit 动作在；152 秒等数字被截断不可见，部分支持"
+  },
+  {
+   "id": "deepseek-session-f0973fdd-32c5-464f-a5c9-dd19d654deff_C378",
+   "label": "partially_supported",
+   "source": "majority",
+   "votes": {
+    "A": "supported",
+    "B": "partially_supported",
+    "C": "partially_supported"
+   },
+   "vote_kind": "majority"
+  },
+  {
+   "id": "deepseek-session-f0973fdd-32c5-464f-a5c9-dd19d654deff_C455",
+   "label": "no_evidence",
+   "source": "majority",
+   "votes": {
+    "A": "no_evidence",
+    "B": "no_evidence",
+    "C": "no_evidence"
+   },
+   "vote_kind": "unanimous"
+  },
+  {
+   "id": "deepseek-session-fb4e02d9-7a47-43ed-9950-337c4d4c64f6_C014",
+   "label": "partially_supported",
+   "source": "majority",
+   "votes": {
+    "A": "partially_supported",
+    "B": "partially_supported",
+    "C": "partially_supported"
+   },
+   "vote_kind": "unanimous"
+  },
+  {
+   "id": "妈妈杯-24ea9767-f37e-42f3-a245-6952860ddf50_C000",
+   "label": "supported",
+   "source": "majority",
+   "votes": {
+    "A": "supported",
+    "B": "supported",
+    "C": "partially_supported"
+   },
+   "vote_kind": "majority"
+  },
+  {
+   "id": "妈妈杯-24ea9767-f37e-42f3-a245-6952860ddf50_C002",
+   "label": "not_scored",
+   "source": "majority",
+   "votes": {
+    "A": "not_scored",
+    "B": "not_scored",
+    "C": "not_scored"
+   },
+   "vote_kind": "unanimous"
+  },
+  {
+   "id": "妈妈杯-24ea9767-f37e-42f3-a245-6952860ddf50_C003",
+   "label": "no_evidence",
+   "source": "majority",
+   "votes": {
+    "A": "partially_supported",
+    "B": "no_evidence",
+    "C": "no_evidence"
+   },
+   "vote_kind": "majority"
+  },
+  {
+   "id": "妈妈杯-24ea9767-f37e-42f3-a245-6952860ddf50_C004",
+   "label": "partially_supported",
+   "source": "majority",
+   "votes": {
+    "A": "partially_supported",
+    "B": "partially_supported",
+    "C": "partially_supported"
+   },
+   "vote_kind": "unanimous"
+  },
+  {
+   "id": "妈妈杯-24ea9767-f37e-42f3-a245-6952860ddf50_C005",
+   "label": "no_evidence",
+   "source": "majority",
+   "votes": {
+    "A": "no_evidence",
+    "B": "no_evidence",
+    "C": "partially_supported"
+   },
+   "vote_kind": "majority"
+  },
+  {
+   "id": "妈妈杯-24ea9767-f37e-42f3-a245-6952860ddf50_C006",
+   "label": "partially_supported",
+   "source": "majority",
+   "votes": {
+    "A": "partially_supported",
+    "B": "partially_supported",
+    "C": "partially_supported"
+   },
+   "vote_kind": "unanimous"
+  },
+  {
+   "id": "妈妈杯-24ea9767-f37e-42f3-a245-6952860ddf50_C007",
+   "label": "partially_supported",
+   "source": "majority",
+   "votes": {
+    "A": "partially_supported",
+    "B": "supported",
+    "C": "partially_supported"
+   },
+   "vote_kind": "majority"
+  },
+  {
+   "id": "妈妈杯-24ea9767-f37e-42f3-a245-6952860ddf50_C008",
+   "label": "partially_supported",
+   "source": "majority",
+   "votes": {
+    "A": "partially_supported",
+    "B": "partially_supported",
+    "C": "partially_supported"
+   },
+   "vote_kind": "unanimous"
+  },
+  {
+   "id": "妈妈杯-24ea9767-f37e-42f3-a245-6952860ddf50_C010",
+   "label": "partially_supported",
+   "source": "majority",
+   "votes": {
+    "A": "partially_supported",
+    "B": "partially_supported",
+    "C": "partially_supported"
+   },
+   "vote_kind": "unanimous"
+  },
+  {
+   "id": "妈妈杯-24ea9767-f37e-42f3-a245-6952860ddf50_C011",
+   "label": "partially_supported",
+   "source": "majority",
+   "votes": {
+    "A": "partially_supported",
+    "B": "partially_supported",
+    "C": "not_scored"
+   },
+   "vote_kind": "majority"
+  },
+  {
+   "id": "妈妈杯-24ea9767-f37e-42f3-a245-6952860ddf50_C012",
+   "label": "partially_supported",
+   "source": "majority",
+   "votes": {
+    "A": "partially_supported",
+    "B": "partially_supported",
+    "C": "partially_supported"
+   },
+   "vote_kind": "unanimous"
+  },
+  {
+   "id": "妈妈杯-24ea9767-f37e-42f3-a245-6952860ddf50_C015",
+   "label": "not_scored",
+   "source": "majority",
+   "votes": {
+    "A": "not_scored",
+    "B": "not_scored",
+    "C": "not_scored"
+   },
+   "vote_kind": "unanimous"
+  },
+  {
+   "id": "妈妈杯-397eb8ae-d1bb-4a83-9856-3f5b2253ad10_C000",
+   "label": "supported",
+   "source": "majority",
+   "votes": {
+    "A": "supported",
+    "B": "not_scored",
+    "C": "supported"
+   },
+   "vote_kind": "majority"
+  },
+  {
+   "id": "妈妈杯-397eb8ae-d1bb-4a83-9856-3f5b2253ad10_C001",
+   "label": "partially_supported",
+   "source": "majority",
+   "votes": {
+    "A": "partially_supported",
+    "B": "partially_supported",
+    "C": "partially_supported"
+   },
+   "vote_kind": "unanimous"
+  },
+  {
+   "id": "妈妈杯-397eb8ae-d1bb-4a83-9856-3f5b2253ad10_C002",
+   "label": "not_scored",
+   "source": "majority",
+   "votes": {
+    "A": "not_scored",
+    "B": "not_scored",
+    "C": "not_scored"
+   },
+   "vote_kind": "unanimous"
+  },
+  {
+   "id": "妈妈杯-397eb8ae-d1bb-4a83-9856-3f5b2253ad10_C003",
+   "label": "not_scored",
+   "source": "majority",
+   "votes": {
+    "A": "not_scored",
+    "B": "not_scored",
+    "C": "not_scored"
+   },
+   "vote_kind": "unanimous"
+  },
+  {
+   "id": "妈妈杯-397eb8ae-d1bb-4a83-9856-3f5b2253ad10_C004",
+   "label": "no_evidence",
+   "source": "majority",
+   "votes": {
+    "A": "partially_supported",
+    "B": "no_evidence",
+    "C": "no_evidence"
+   },
+   "vote_kind": "majority"
+  },
+  {
+   "id": "妈妈杯-397eb8ae-d1bb-4a83-9856-3f5b2253ad10_C005",
+   "label": "partially_supported",
+   "source": "majority",
+   "votes": {
+    "A": "contradicted",
+    "B": "partially_supported",
+    "C": "partially_supported"
+   },
+   "vote_kind": "majority"
+  },
+  {
+   "id": "妈妈杯-397eb8ae-d1bb-4a83-9856-3f5b2253ad10_C006",
+   "label": "not_scored",
+   "source": "majority",
+   "votes": {
+    "A": "not_scored",
+    "B": "not_scored",
+    "C": "not_scored"
+   },
+   "vote_kind": "unanimous"
+  },
+  {
+   "id": "妈妈杯-397eb8ae-d1bb-4a83-9856-3f5b2253ad10_C007",
+   "label": "supported",
+   "source": "majority",
+   "votes": {
+    "A": "supported",
+    "B": "supported",
+    "C": "supported"
+   },
+   "vote_kind": "unanimous"
+  },
+  {
+   "id": "妈妈杯-397eb8ae-d1bb-4a83-9856-3f5b2253ad10_C008",
+   "label": "not_scored",
+   "source": "majority",
+   "votes": {
+    "A": "not_scored",
+    "B": "supported",
+    "C": "not_scored"
+   },
+   "vote_kind": "majority"
+  },
+  {
+   "id": "妈妈杯-397eb8ae-d1bb-4a83-9856-3f5b2253ad10_C009",
+   "label": "supported",
+   "source": "majority",
+   "votes": {
+    "A": "supported",
+    "B": "supported",
+    "C": "supported"
+   },
+   "vote_kind": "unanimous"
+  },
+  {
+   "id": "妈妈杯-397eb8ae-d1bb-4a83-9856-3f5b2253ad10_C010",
+   "label": "partially_supported",
+   "source": "majority",
+   "votes": {
+    "A": "partially_supported",
+    "B": "partially_supported",
+    "C": "partially_supported"
+   },
+   "vote_kind": "unanimous"
+  },
+  {
+   "id": "妈妈杯-7a0766ae-0295-4b10-b757-5fa295eca786_C001",
+   "label": "partially_supported",
+   "source": "majority",
+   "votes": {
+    "A": "partially_supported",
+    "B": "not_scored",
+    "C": "partially_supported"
+   },
+   "vote_kind": "majority"
+  },
+  {
+   "id": "妈妈杯-7a0766ae-0295-4b10-b757-5fa295eca786_C002",
+   "label": "supported",
+   "source": "majority",
+   "votes": {
+    "A": "supported",
+    "B": "supported",
+    "C": "partially_supported"
+   },
+   "vote_kind": "majority"
+  },
+  {
+   "id": "妈妈杯-7a0766ae-0295-4b10-b757-5fa295eca786_C005",
+   "label": "partially_supported",
+   "source": "majority",
+   "votes": {
+    "A": "partially_supported",
+    "B": "contradicted",
+    "C": "partially_supported"
+   },
+   "vote_kind": "majority"
+  },
+  {
+   "id": "妈妈杯-7a0766ae-0295-4b10-b757-5fa295eca786_C006",
+   "label": "partially_supported",
+   "source": "majority",
+   "votes": {
+    "A": "partially_supported",
+    "B": "partially_supported",
+    "C": "partially_supported"
+   },
+   "vote_kind": "unanimous"
+  },
+  {
+   "id": "妈妈杯-7a0766ae-0295-4b10-b757-5fa295eca786_C008",
+   "label": "partially_supported",
+   "source": "majority",
+   "votes": {
+    "A": "partially_supported",
+    "B": "partially_supported",
+    "C": "not_scored"
+   },
+   "vote_kind": "majority"
+  },
+  {
+   "id": "妈妈杯-7a0766ae-0295-4b10-b757-5fa295eca786_C009",
+   "label": "not_scored",
+   "source": "majority",
+   "votes": {
+    "A": "not_scored",
+    "B": "partially_supported",
+    "C": "not_scored"
+   },
+   "vote_kind": "majority"
+  },
+  {
+   "id": "妈妈杯-7a0766ae-0295-4b10-b757-5fa295eca786_C010",
+   "label": "not_scored",
+   "source": "majority",
+   "votes": {
+    "A": "not_scored",
+    "B": "not_scored",
+    "C": "not_scored"
+   },
+   "vote_kind": "unanimous"
+  },
+  {
+   "id": "妈妈杯-7a0766ae-0295-4b10-b757-5fa295eca786_C012",
+   "label": "partially_supported",
+   "source": "majority",
+   "votes": {
+    "A": "partially_supported",
+    "B": "partially_supported",
+    "C": "partially_supported"
+   },
+   "vote_kind": "unanimous"
+  },
+  {
+   "id": "妈妈杯-7a0766ae-0295-4b10-b757-5fa295eca786_C013",
+   "label": "supported",
+   "source": "majority",
+   "votes": {
+    "A": "supported",
+    "B": "supported",
+    "C": "supported"
+   },
+   "vote_kind": "unanimous"
+  },
+  {
+   "id": "妈妈杯-7a0766ae-0295-4b10-b757-5fa295eca786_C018",
+   "label": "partially_supported",
+   "source": "majority",
+   "votes": {
+    "A": "partially_supported",
+    "B": "partially_supported",
+    "C": "partially_supported"
+   },
+   "vote_kind": "unanimous"
+  },
+  {
+   "id": "妈妈杯-7a0766ae-0295-4b10-b757-5fa295eca786_C019",
+   "label": "supported",
+   "source": "majority",
+   "votes": {
+    "A": "supported",
+    "B": "supported",
+    "C": "supported"
+   },
+   "vote_kind": "unanimous"
+  },
+  {
+   "id": "妈妈杯-7a0766ae-0295-4b10-b757-5fa295eca786_C021",
+   "label": "supported",
+   "source": "majority",
+   "votes": {
+    "A": "supported",
+    "B": "supported",
+    "C": "supported"
+   },
+   "vote_kind": "unanimous"
+  },
+  {
+   "id": "妈妈杯-f786a767-afc1-4f12-a736-e2ff1e53ad34_C001",
+   "label": "not_scored",
+   "source": "majority",
+   "votes": {
+    "A": "not_scored",
+    "B": "not_scored",
+    "C": "not_scored"
+   },
+   "vote_kind": "unanimous"
+  },
+  {
+   "id": "妈妈杯-f786a767-afc1-4f12-a736-e2ff1e53ad34_C002",
+   "label": "partially_supported",
+   "source": "majority",
+   "votes": {
+    "A": "partially_supported",
+    "B": "partially_supported",
+    "C": "partially_supported"
+   },
+   "vote_kind": "unanimous"
+  },
+  {
+   "id": "妈妈杯-f786a767-afc1-4f12-a736-e2ff1e53ad34_C004",
+   "label": "supported",
+   "source": "majority",
+   "votes": {
+    "A": "supported",
+    "B": "supported",
+    "C": "supported"
+   },
+   "vote_kind": "unanimous"
+  },
+  {
+   "id": "妈妈杯-f786a767-afc1-4f12-a736-e2ff1e53ad34_C005",
+   "label": "not_scored",
+   "source": "majority",
+   "votes": {
+    "A": "not_scored",
+    "B": "not_scored",
+    "C": "not_scored"
+   },
+   "vote_kind": "unanimous"
+  },
+  {
+   "id": "妈妈杯-f786a767-afc1-4f12-a736-e2ff1e53ad34_C007",
+   "label": "partially_supported",
+   "source": "majority",
+   "votes": {
+    "A": "partially_supported",
+    "B": "partially_supported",
+    "C": "partially_supported"
+   },
+   "vote_kind": "unanimous"
+  },
+  {
+   "id": "妈妈杯-f786a767-afc1-4f12-a736-e2ff1e53ad34_C008",
+   "label": "partially_supported",
+   "source": "majority",
+   "votes": {
+    "A": "partially_supported",
+    "B": "not_scored",
+    "C": "partially_supported"
+   },
+   "vote_kind": "majority"
+  },
+  {
+   "id": "妈妈杯-f786a767-afc1-4f12-a736-e2ff1e53ad34_C009",
+   "label": "partially_supported",
+   "source": "majority",
+   "votes": {
+    "A": "partially_supported",
+    "B": "partially_supported",
+    "C": "partially_supported"
+   },
+   "vote_kind": "unanimous"
+  },
+  {
+   "id": "妈妈杯-f786a767-afc1-4f12-a736-e2ff1e53ad34_C012",
+   "label": "not_scored",
+   "source": "majority",
+   "votes": {
+    "A": "not_scored",
+    "B": "not_scored",
+    "C": "not_scored"
+   },
+   "vote_kind": "unanimous"
+  },
+  {
+   "id": "妈妈杯-f786a767-afc1-4f12-a736-e2ff1e53ad34_C014",
+   "label": "not_scored",
+   "source": "majority",
+   "votes": {
+    "A": "not_scored",
+    "B": "not_scored",
+    "C": "not_scored"
+   },
+   "vote_kind": "unanimous"
+  },
+  {
+   "id": "妈妈杯-f786a767-afc1-4f12-a736-e2ff1e53ad34_C016",
+   "label": "not_scored",
+   "source": "majority",
+   "votes": {
+    "A": "not_scored",
+    "B": "supported",
+    "C": "not_scored"
+   },
+   "vote_kind": "majority"
+  },
+  {
+   "id": "妈妈杯-f786a767-afc1-4f12-a736-e2ff1e53ad34_C019",
+   "label": "partially_supported",
+   "source": "majority",
+   "votes": {
+    "A": "partially_supported",
+    "B": "contradicted",
+    "C": "partially_supported"
+   },
+   "vote_kind": "majority"
+  },
+  {
+   "id": "妈妈杯-f786a767-afc1-4f12-a736-e2ff1e53ad34_C025",
+   "label": "partially_supported",
+   "source": "majority",
+   "votes": {
+    "A": "partially_supported",
+    "B": "partially_supported",
+    "C": "partially_supported"
+   },
+   "vote_kind": "unanimous"
+  },
+  {
+   "id": "妈妈杯-session-af5a7765-6ba1-402b-984e-4b8018b65858_C004",
+   "label": "partially_supported",
+   "source": "majority",
+   "votes": {
+    "A": "partially_supported",
+    "B": "contradicted",
+    "C": "partially_supported"
+   },
+   "vote_kind": "majority"
+  },
+  {
+   "id": "妈妈杯-session-af5a7765-6ba1-402b-984e-4b8018b65858_C011",
+   "label": "not_scored",
+   "source": "majority",
+   "votes": {
+    "A": "not_scored",
+    "B": "not_scored",
+    "C": "not_scored"
+   },
+   "vote_kind": "unanimous"
+  },
+  {
+   "id": "妈妈杯-session-af5a7765-6ba1-402b-984e-4b8018b65858_C027",
+   "label": "partially_supported",
+   "source": "majority",
+   "votes": {
+    "A": "partially_supported",
+    "B": "partially_supported",
+    "C": "partially_supported"
+   },
+   "vote_kind": "unanimous"
+  },
+  {
+   "id": "妈妈杯-session-af5a7765-6ba1-402b-984e-4b8018b65858_C038",
+   "label": "partially_supported",
+   "source": "majority",
+   "votes": {
+    "A": "supported",
+    "B": "partially_supported",
+    "C": "partially_supported"
+   },
+   "vote_kind": "majority"
+  },
+  {
+   "id": "妈妈杯-session-af5a7765-6ba1-402b-984e-4b8018b65858_C044",
+   "label": "partially_supported",
+   "source": "majority",
+   "votes": {
+    "A": "partially_supported",
+    "B": "partially_supported",
+    "C": "partially_supported"
+   },
+   "vote_kind": "unanimous"
+  },
+  {
+   "id": "妈妈杯-session-af5a7765-6ba1-402b-984e-4b8018b65858_C112",
+   "label": "not_scored",
+   "source": "majority",
+   "votes": {
+    "A": "not_scored",
+    "B": "not_scored",
+    "C": "not_scored"
+   },
+   "vote_kind": "unanimous"
+  },
+  {
+   "id": "妈妈杯-session-af5a7765-6ba1-402b-984e-4b8018b65858_C252",
+   "label": "not_scored",
+   "source": "majority",
+   "votes": {
+    "A": "not_scored",
+    "B": "not_scored",
+    "C": "not_scored"
+   },
+   "vote_kind": "unanimous"
+  },
+  {
+   "id": "妈妈杯-session-af5a7765-6ba1-402b-984e-4b8018b65858_C308",
+   "label": "not_scored",
+   "source": "majority",
+   "votes": {
+    "A": "not_scored",
+    "B": "not_scored",
+    "C": "not_scored"
+   },
+   "vote_kind": "unanimous"
+  },
+  {
+   "id": "妈妈杯-session-af5a7765-6ba1-402b-984e-4b8018b65858_C317",
+   "label": "supported",
+   "source": "majority",
+   "votes": {
+    "A": "supported",
+    "B": "supported",
+    "C": "partially_supported"
+   },
+   "vote_kind": "majority"
+  },
+  {
+   "id": "妈妈杯-session-af5a7765-6ba1-402b-984e-4b8018b65858_C339",
+   "label": "not_scored",
+   "source": "majority",
+   "votes": {
+    "A": "not_scored",
+    "B": "not_scored",
+    "C": "not_scored"
+   },
+   "vote_kind": "unanimous"
+  },
+  {
+   "id": "妈妈杯-session-af5a7765-6ba1-402b-984e-4b8018b65858_C348",
+   "label": "not_scored",
+   "source": "majority",
+   "votes": {
+    "A": "not_scored",
+    "B": "partially_supported",
+    "C": "not_scored"
+   },
+   "vote_kind": "majority"
+  },
+  {
+   "id": "妈妈杯-session-af5a7765-6ba1-402b-984e-4b8018b65858_C455",
+   "label": "not_scored",
+   "source": "majority",
+   "votes": {
+    "A": "not_scored",
+    "B": "not_scored",
+    "C": "not_scored"
+   },
+   "vote_kind": "unanimous"
+  },
+  {
+   "id": "妈妈杯-session-b6ba8408-8270-4e82-815d-7a73807f6fb4_C000",
+   "label": "partially_supported",
+   "source": "majority",
+   "votes": {
+    "A": "partially_supported",
+    "B": "partially_supported",
+    "C": "partially_supported"
+   },
+   "vote_kind": "unanimous"
+  },
+  {
+   "id": "妈妈杯-session-b6ba8408-8270-4e82-815d-7a73807f6fb4_C005",
+   "label": "partially_supported",
+   "source": "majority",
+   "votes": {
+    "A": "partially_supported",
+    "B": "partially_supported",
+    "C": "not_scored"
+   },
+   "vote_kind": "majority"
+  },
+  {
+   "id": "妈妈杯-session-b6ba8408-8270-4e82-815d-7a73807f6fb4_C097",
+   "label": "no_evidence",
+   "source": "majority",
+   "votes": {
+    "A": "not_scored",
+    "B": "no_evidence",
+    "C": "no_evidence"
+   },
+   "vote_kind": "majority"
+  },
+  {
+   "id": "妈妈杯-session-b6ba8408-8270-4e82-815d-7a73807f6fb4_C147",
+   "label": "partially_supported",
+   "source": "majority",
+   "votes": {
+    "A": "partially_supported",
+    "B": "partially_supported",
+    "C": "not_scored"
+   },
+   "vote_kind": "majority"
+  },
+  {
+   "id": "妈妈杯-session-b6ba8408-8270-4e82-815d-7a73807f6fb4_C149",
+   "label": "not_scored",
+   "source": "majority",
+   "votes": {
+    "A": "not_scored",
+    "B": "not_scored",
+    "C": "not_scored"
+   },
+   "vote_kind": "unanimous"
+  },
+  {
+   "id": "妈妈杯-session-b6ba8408-8270-4e82-815d-7a73807f6fb4_C187",
+   "label": "partially_supported",
+   "source": "majority",
+   "votes": {
+    "A": "partially_supported",
+    "B": "partially_supported",
+    "C": "partially_supported"
+   },
+   "vote_kind": "unanimous"
+  },
+  {
+   "id": "妈妈杯-session-b6ba8408-8270-4e82-815d-7a73807f6fb4_C247",
+   "label": "supported",
+   "source": "majority",
+   "votes": {
+    "A": "supported",
+    "B": "supported",
+    "C": "supported"
+   },
+   "vote_kind": "unanimous"
+  },
+  {
+   "id": "妈妈杯-session-b6ba8408-8270-4e82-815d-7a73807f6fb4_C255",
+   "label": "no_evidence",
+   "source": "majority",
+   "votes": {
+    "A": "not_scored",
+    "B": "no_evidence",
+    "C": "no_evidence"
+   },
+   "vote_kind": "majority"
+  },
+  {
+   "id": "妈妈杯-session-b6ba8408-8270-4e82-815d-7a73807f6fb4_C257",
+   "label": "not_scored",
+   "source": "majority",
+   "votes": {
+    "A": "not_scored",
+    "B": "not_scored",
+    "C": "not_scored"
+   },
+   "vote_kind": "unanimous"
+  },
+  {
+   "id": "妈妈杯-session-b6ba8408-8270-4e82-815d-7a73807f6fb4_C355",
+   "label": "not_scored",
+   "source": "majority",
+   "votes": {
+    "A": "not_scored",
+    "B": "not_scored",
+    "C": "not_scored"
+   },
+   "vote_kind": "unanimous"
+  },
+  {
+   "id": "妈妈杯-session-b6ba8408-8270-4e82-815d-7a73807f6fb4_C382",
+   "label": "not_scored",
+   "source": "majority",
+   "votes": {
+    "A": "not_scored",
+    "B": "not_scored",
+    "C": "not_scored"
+   },
+   "vote_kind": "unanimous"
+  },
+  {
+   "id": "妈妈杯-session-b6ba8408-8270-4e82-815d-7a73807f6fb4_C385",
+   "label": "not_scored",
+   "source": "majority",
+   "votes": {
+    "A": "not_scored",
+    "B": "not_scored",
+    "C": "not_scored"
+   },
+   "vote_kind": "unanimous"
+  },
+  {
+   "id": "妈妈杯-session-c15ea9d0-36c4-4e06-95ae-58cf42706b9f_C001",
+   "label": "not_scored",
+   "source": "majority",
+   "votes": {
+    "A": "not_scored",
+    "B": "not_scored",
+    "C": "not_scored"
+   },
+   "vote_kind": "unanimous"
+  },
+  {
+   "id": "妈妈杯-session-c15ea9d0-36c4-4e06-95ae-58cf42706b9f_C007",
+   "label": "partially_supported",
+   "source": "majority",
+   "votes": {
+    "A": "partially_supported",
+    "B": "contradicted",
+    "C": "partially_supported"
+   },
+   "vote_kind": "majority"
+  },
+  {
+   "id": "妈妈杯-session-c15ea9d0-36c4-4e06-95ae-58cf42706b9f_C102",
+   "label": "not_scored",
+   "source": "majority",
+   "votes": {
+    "A": "not_scored",
+    "B": "partially_supported",
+    "C": "not_scored"
+   },
+   "vote_kind": "majority"
+  },
+  {
+   "id": "妈妈杯-session-c15ea9d0-36c4-4e06-95ae-58cf42706b9f_C409",
+   "label": "partially_supported",
+   "source": "majority",
+   "votes": {
+    "A": "partially_supported",
+    "B": "partially_supported",
+    "C": "partially_supported"
+   },
+   "vote_kind": "unanimous"
+  },
+  {
+   "id": "妈妈杯-session-c15ea9d0-36c4-4e06-95ae-58cf42706b9f_C438",
+   "label": "not_scored",
+   "source": "majority",
+   "votes": {
+    "A": "not_scored",
+    "B": "not_scored",
+    "C": "not_scored"
+   },
+   "vote_kind": "unanimous"
+  },
+  {
+   "id": "妈妈杯-session-c15ea9d0-36c4-4e06-95ae-58cf42706b9f_C469",
+   "label": "supported",
+   "source": "majority",
+   "votes": {
+    "A": "supported",
+    "B": "supported",
+    "C": "partially_supported"
+   },
+   "vote_kind": "majority"
+  },
+  {
+   "id": "妈妈杯-session-c15ea9d0-36c4-4e06-95ae-58cf42706b9f_C516",
+   "label": "not_scored",
+   "source": "majority",
+   "votes": {
+    "A": "not_scored",
+    "B": "not_scored",
+    "C": "not_scored"
+   },
+   "vote_kind": "unanimous"
+  },
+  {
+   "id": "妈妈杯-session-c15ea9d0-36c4-4e06-95ae-58cf42706b9f_C549",
+   "label": "partially_supported",
+   "source": "majority",
+   "votes": {
+    "A": "partially_supported",
+    "B": "partially_supported",
+    "C": "partially_supported"
+   },
+   "vote_kind": "unanimous"
+  },
+  {
+   "id": "妈妈杯-session-c15ea9d0-36c4-4e06-95ae-58cf42706b9f_C630",
+   "label": "not_scored",
+   "source": "majority",
+   "votes": {
+    "A": "not_scored",
+    "B": "not_scored",
+    "C": "not_scored"
+   },
+   "vote_kind": "unanimous"
+  },
+  {
+   "id": "妈妈杯-session-c15ea9d0-36c4-4e06-95ae-58cf42706b9f_C749",
+   "label": "not_scored",
+   "source": "majority",
+   "votes": {
+    "A": "not_scored",
+    "B": "not_scored",
+    "C": "not_scored"
+   },
+   "vote_kind": "unanimous"
+  },
+  {
+   "id": "妈妈杯-session-c15ea9d0-36c4-4e06-95ae-58cf42706b9f_C838",
+   "label": "not_scored",
+   "source": "majority",
+   "votes": {
+    "A": "not_scored",
+    "B": "not_scored",
+    "C": "partially_supported"
+   },
+   "vote_kind": "majority"
+  },
+  {
+   "id": "妈妈杯-session-c15ea9d0-36c4-4e06-95ae-58cf42706b9f_C876",
+   "label": "not_scored",
+   "source": "majority",
+   "votes": {
+    "A": "not_scored",
+    "B": "not_scored",
+    "C": "partially_supported"
+   },
+   "vote_kind": "majority"
+  },
+  {
+   "id": "数媒杯-512af3f8-c794-43d3-9958-608f01be2cfb_C000",
+   "label": "supported",
+   "source": "majority",
+   "votes": {
+    "A": "supported",
+    "B": "supported",
+    "C": "supported"
+   },
+   "vote_kind": "unanimous"
+  },
+  {
+   "id": "数媒杯-512af3f8-c794-43d3-9958-608f01be2cfb_C001",
+   "label": "partially_supported",
+   "source": "majority",
+   "votes": {
+    "A": "partially_supported",
+    "B": "partially_supported",
+    "C": "partially_supported"
+   },
+   "vote_kind": "unanimous"
+  },
+  {
+   "id": "数媒杯-512af3f8-c794-43d3-9958-608f01be2cfb_C002",
+   "label": "partially_supported",
+   "source": "majority",
+   "votes": {
+    "A": "partially_supported",
+    "B": "partially_supported",
+    "C": "partially_supported"
+   },
+   "vote_kind": "unanimous"
+  },
+  {
+   "id": "数媒杯-512af3f8-c794-43d3-9958-608f01be2cfb_C004",
+   "label": "not_scored",
+   "source": "majority",
+   "votes": {
+    "A": "not_scored",
+    "B": "not_scored",
+    "C": "not_scored"
+   },
+   "vote_kind": "unanimous"
+  },
+  {
+   "id": "数媒杯-512af3f8-c794-43d3-9958-608f01be2cfb_C007",
+   "label": "not_scored",
+   "source": "majority",
+   "votes": {
+    "A": "not_scored",
+    "B": "contradicted",
+    "C": "not_scored"
+   },
+   "vote_kind": "majority"
+  },
+  {
+   "id": "数媒杯-512af3f8-c794-43d3-9958-608f01be2cfb_C008",
+   "label": "not_scored",
+   "source": "majority",
+   "votes": {
+    "A": "not_scored",
+    "B": "not_scored",
+    "C": "not_scored"
+   },
+   "vote_kind": "unanimous"
+  },
+  {
+   "id": "数媒杯-512af3f8-c794-43d3-9958-608f01be2cfb_C009",
+   "label": "partially_supported",
+   "source": "majority",
+   "votes": {
+    "A": "partially_supported",
+    "B": "partially_supported",
+    "C": "not_scored"
+   },
+   "vote_kind": "majority"
+  },
+  {
+   "id": "数媒杯-512af3f8-c794-43d3-9958-608f01be2cfb_C010",
+   "label": "partially_supported",
+   "source": "majority",
+   "votes": {
+    "A": "partially_supported",
+    "B": "partially_supported",
+    "C": "partially_supported"
+   },
+   "vote_kind": "unanimous"
+  },
+  {
+   "id": "数媒杯-5457a7a5-d074-4691-80d4-3229d4aae271_C001",
+   "label": "partially_supported",
+   "source": "majority",
+   "votes": {
+    "A": "partially_supported",
+    "B": "partially_supported",
+    "C": "not_scored"
+   },
+   "vote_kind": "majority"
+  },
+  {
+   "id": "数媒杯-5457a7a5-d074-4691-80d4-3229d4aae271_C002",
+   "label": "not_scored",
+   "source": "majority",
+   "votes": {
+    "A": "not_scored",
+    "B": "no_evidence",
+    "C": "not_scored"
+   },
+   "vote_kind": "majority"
+  },
+  {
+   "id": "数媒杯-5457a7a5-d074-4691-80d4-3229d4aae271_C003",
+   "label": "partially_supported",
+   "source": "majority",
+   "votes": {
+    "A": "partially_supported",
+    "B": "partially_supported",
+    "C": "partially_supported"
+   },
+   "vote_kind": "unanimous"
+  },
+  {
+   "id": "数媒杯-5457a7a5-d074-4691-80d4-3229d4aae271_C004",
+   "label": "supported",
+   "source": "majority",
+   "votes": {
+    "A": "supported",
+    "B": "supported",
+    "C": "not_scored"
+   },
+   "vote_kind": "majority"
+  },
+  {
+   "id": "数媒杯-5457a7a5-d074-4691-80d4-3229d4aae271_C007",
+   "label": "partially_supported",
+   "source": "majority",
+   "votes": {
+    "A": "partially_supported",
+    "B": "partially_supported",
+    "C": "not_scored"
+   },
+   "vote_kind": "majority"
+  },
+  {
+   "id": "数媒杯-5457a7a5-d074-4691-80d4-3229d4aae271_C008",
+   "label": "partially_supported",
+   "source": "majority",
+   "votes": {
+    "A": "partially_supported",
+    "B": "partially_supported",
+    "C": "partially_supported"
+   },
+   "vote_kind": "unanimous"
+  },
+  {
+   "id": "数媒杯-5457a7a5-d074-4691-80d4-3229d4aae271_C009",
+   "label": "partially_supported",
+   "source": "majority",
+   "votes": {
+    "A": "partially_supported",
+    "B": "partially_supported",
+    "C": "partially_supported"
+   },
+   "vote_kind": "unanimous"
+  },
+  {
+   "id": "数媒杯-73885340-d430-4763-8e1f-49e01670e58f_C000",
+   "label": "partially_supported",
+   "source": "majority",
+   "votes": {
+    "A": "partially_supported",
+    "B": "partially_supported",
+    "C": "partially_supported"
+   },
+   "vote_kind": "unanimous"
+  },
+  {
+   "id": "数媒杯-73885340-d430-4763-8e1f-49e01670e58f_C003",
+   "label": "not_scored",
+   "source": "majority",
+   "votes": {
+    "A": "not_scored",
+    "B": "not_scored",
+    "C": "not_scored"
+   },
+   "vote_kind": "unanimous"
+  },
+  {
+   "id": "数媒杯-73885340-d430-4763-8e1f-49e01670e58f_C004",
+   "label": "not_scored",
+   "source": "majority",
+   "votes": {
+    "A": "not_scored",
+    "B": "partially_supported",
+    "C": "not_scored"
+   },
+   "vote_kind": "majority"
+  },
+  {
+   "id": "数媒杯-73885340-d430-4763-8e1f-49e01670e58f_C006",
+   "label": "partially_supported",
+   "source": "majority",
+   "votes": {
+    "A": "partially_supported",
+    "B": "not_scored",
+    "C": "partially_supported"
+   },
+   "vote_kind": "majority"
+  },
+  {
+   "id": "数媒杯-73885340-d430-4763-8e1f-49e01670e58f_C008",
+   "label": "partially_supported",
+   "source": "majority",
+   "votes": {
+    "A": "partially_supported",
+    "B": "partially_supported",
+    "C": "partially_supported"
+   },
+   "vote_kind": "unanimous"
+  },
+  {
+   "id": "数媒杯-73885340-d430-4763-8e1f-49e01670e58f_C009",
+   "label": "partially_supported",
+   "source": "majority",
+   "votes": {
+    "A": "partially_supported",
+    "B": "partially_supported",
+    "C": "partially_supported"
+   },
+   "vote_kind": "unanimous"
+  },
+  {
+   "id": "数媒杯-73885340-d430-4763-8e1f-49e01670e58f_C011",
+   "label": "partially_supported",
+   "source": "majority",
+   "votes": {
+    "A": "partially_supported",
+    "B": "partially_supported",
+    "C": "partially_supported"
+   },
+   "vote_kind": "unanimous"
+  },
+  {
+   "id": "数媒杯-73885340-d430-4763-8e1f-49e01670e58f_C012",
+   "label": "partially_supported",
+   "source": "majority",
+   "votes": {
+    "A": "partially_supported",
+    "B": "partially_supported",
+    "C": "partially_supported"
+   },
+   "vote_kind": "unanimous"
+  },
+  {
+   "id": "数媒杯-73885340-d430-4763-8e1f-49e01670e58f_C013",
+   "label": "partially_supported",
+   "source": "majority",
+   "votes": {
+    "A": "partially_supported",
+    "B": "partially_supported",
+    "C": "partially_supported"
+   },
+   "vote_kind": "unanimous"
+  },
+  {
+   "id": "数媒杯-73885340-d430-4763-8e1f-49e01670e58f_C014",
+   "label": "not_scored",
+   "source": "majority",
+   "votes": {
+    "A": "not_scored",
+    "B": "not_scored",
+    "C": "not_scored"
+   },
+   "vote_kind": "unanimous"
+  },
+  {
+   "id": "数媒杯-session-643a0343-02d6-4129-bf9c-94914b0e6c79_C008",
+   "label": "partially_supported",
+   "source": "majority",
+   "votes": {
+    "A": "partially_supported",
+    "B": "partially_supported",
+    "C": "not_scored"
+   },
+   "vote_kind": "majority"
+  },
+  {
+   "id": "数媒杯-session-643a0343-02d6-4129-bf9c-94914b0e6c79_C037",
+   "label": "not_scored",
+   "source": "majority",
+   "votes": {
+    "A": "not_scored",
+    "B": "not_scored",
+    "C": "not_scored"
+   },
+   "vote_kind": "unanimous"
+  },
+  {
+   "id": "数媒杯-session-643a0343-02d6-4129-bf9c-94914b0e6c79_C039",
+   "label": "not_scored",
+   "source": "majority",
+   "votes": {
+    "A": "not_scored",
+    "B": "not_scored",
+    "C": "not_scored"
+   },
+   "vote_kind": "unanimous"
+  },
+  {
+   "id": "数媒杯-session-643a0343-02d6-4129-bf9c-94914b0e6c79_C041",
+   "label": "not_scored",
+   "source": "majority",
+   "votes": {
+    "A": "not_scored",
+    "B": "not_scored",
+    "C": "not_scored"
+   },
+   "vote_kind": "unanimous"
+  },
+  {
+   "id": "数媒杯-session-643a0343-02d6-4129-bf9c-94914b0e6c79_C048",
+   "label": "not_scored",
+   "source": "majority",
+   "votes": {
+    "A": "not_scored",
+    "B": "not_scored",
+    "C": "not_scored"
+   },
+   "vote_kind": "unanimous"
+  },
+  {
+   "id": "数媒杯-session-643a0343-02d6-4129-bf9c-94914b0e6c79_C049",
+   "label": "partially_supported",
+   "source": "majority",
+   "votes": {
+    "A": "partially_supported",
+    "B": "partially_supported",
+    "C": "not_scored"
+   },
+   "vote_kind": "majority"
+  },
+  {
+   "id": "数媒杯-session-643a0343-02d6-4129-bf9c-94914b0e6c79_C060",
+   "label": "not_scored",
+   "source": "majority",
+   "votes": {
+    "A": "not_scored",
+    "B": "not_scored",
+    "C": "not_scored"
+   },
+   "vote_kind": "unanimous"
+  },
+  {
+   "id": "数媒杯-session-643a0343-02d6-4129-bf9c-94914b0e6c79_C061",
+   "label": "not_scored",
+   "source": "majority",
+   "votes": {
+    "A": "not_scored",
+    "B": "not_scored",
+    "C": "not_scored"
+   },
+   "vote_kind": "unanimous"
+  },
+  {
+   "id": "文献阅读汇报-session-60b3de1e-233c-40f1-a520-7d8cba4daa4e_C011",
+   "label": "not_scored",
+   "source": "majority",
+   "votes": {
+    "A": "not_scored",
+    "B": "not_scored",
+    "C": "not_scored"
+   },
+   "vote_kind": "unanimous"
+  },
+  {
+   "id": "文献阅读汇报-session-60b3de1e-233c-40f1-a520-7d8cba4daa4e_C028",
+   "label": "partially_supported",
+   "source": "majority",
+   "votes": {
+    "A": "partially_supported",
+    "B": "partially_supported",
+    "C": "partially_supported"
+   },
+   "vote_kind": "unanimous"
+  },
+  {
+   "id": "文献阅读汇报-session-7184c5ee-b103-4ccf-8cd5-63735536e3b1_C000",
+   "label": "not_scored",
+   "source": "majority",
+   "votes": {
+    "A": "not_scored",
+    "B": "not_scored",
+    "C": "not_scored"
+   },
+   "vote_kind": "unanimous"
+  },
+  {
+   "id": "文献阅读汇报-session-7184c5ee-b103-4ccf-8cd5-63735536e3b1_C001",
+   "label": "supported",
+   "source": "majority",
+   "votes": {
+    "A": "supported",
+    "B": "contradicted",
+    "C": "supported"
+   },
+   "vote_kind": "majority"
+  },
+  {
+   "id": "文献阅读汇报-session-7184c5ee-b103-4ccf-8cd5-63735536e3b1_C003",
+   "label": "supported",
+   "source": "adjudicated",
+   "votes": {
+    "A": "supported",
+    "B": "contradicted",
+    "C": "partially_supported"
+   },
+   "reason": "Traceback 与 edit 直接支持转义问题这一诊断"
+  },
+  {
+   "id": "文献阅读汇报-session-7184c5ee-b103-4ccf-8cd5-63735536e3b1_C005",
+   "label": "not_scored",
+   "source": "majority",
+   "votes": {
+    "A": "not_scored",
+    "B": "not_scored",
+    "C": "not_scored"
+   },
+   "vote_kind": "unanimous"
+  },
+  {
+   "id": "文献阅读汇报-session-7184c5ee-b103-4ccf-8cd5-63735536e3b1_C006",
+   "label": "supported",
+   "source": "majority",
+   "votes": {
+    "A": "supported",
+    "B": "supported",
+    "C": "contradicted"
+   },
+   "vote_kind": "majority"
+  },
+  {
+   "id": "文献阅读汇报-session-7184c5ee-b103-4ccf-8cd5-63735536e3b1_C007",
+   "label": "partially_supported",
+   "source": "majority",
+   "votes": {
+    "A": "contradicted",
+    "B": "partially_supported",
+    "C": "partially_supported"
+   },
+   "vote_kind": "majority"
+  },
+  {
+   "id": "文献阅读汇报-session-7184c5ee-b103-4ccf-8cd5-63735536e3b1_C008",
+   "label": "partially_supported",
+   "source": "majority",
+   "votes": {
+    "A": "partially_supported",
+    "B": "not_scored",
+    "C": "partially_supported"
+   },
+   "vote_kind": "majority"
+  },
+  {
+   "id": "文献阅读汇报-session-7184c5ee-b103-4ccf-8cd5-63735536e3b1_C011",
+   "label": "partially_supported",
+   "source": "majority",
+   "votes": {
+    "A": "partially_supported",
+    "B": "partially_supported",
+    "C": "partially_supported"
+   },
+   "vote_kind": "unanimous"
+  },
+  {
+   "id": "文献阅读汇报-session-7184c5ee-b103-4ccf-8cd5-63735536e3b1_C012",
+   "label": "supported",
+   "source": "majority",
+   "votes": {
+    "A": "supported",
+    "B": "supported",
+    "C": "supported"
+   },
+   "vote_kind": "unanimous"
+  },
+  {
+   "id": "文献阅读汇报-session-7184c5ee-b103-4ccf-8cd5-63735536e3b1_C014",
+   "label": "not_scored",
+   "source": "majority",
+   "votes": {
+    "A": "not_scored",
+    "B": "not_scored",
+    "C": "not_scored"
+   },
+   "vote_kind": "unanimous"
+  },
+  {
+   "id": "文献阅读汇报-session-7184c5ee-b103-4ccf-8cd5-63735536e3b1_C015",
+   "label": "not_scored",
+   "source": "majority",
+   "votes": {
+    "A": "not_scored",
+    "B": "not_scored",
+    "C": "not_scored"
+   },
+   "vote_kind": "unanimous"
+  },
+  {
+   "id": "文献阅读汇报-session-7184c5ee-b103-4ccf-8cd5-63735536e3b1_C016",
+   "label": "not_scored",
+   "source": "majority",
+   "votes": {
+    "A": "partially_supported",
+    "B": "not_scored",
+    "C": "not_scored"
+   },
+   "vote_kind": "majority"
+  }
+ ],
+ "qc": [
+  "D1_real37-177f991f-aaa3-4eef-8f4a-9a359b1ae884_C015",
+  "D1_real37-25138cf1-5c85-4a03-9fea-5994e3ee5780_C005",
+  "D1_real37-25138cf1-5c85-4a03-9fea-5994e3ee5780_C007",
+  "D1_real37-36bb848f-4bfd-4922-a321-b159bddd1d49_C008",
+  "D1_real37-36bb848f-4bfd-4922-a321-b159bddd1d49_C013",
+  "D1_real37-b9687f63-667f-4703-89f8-a96c22cbd2a2_C000",
+  "D1_real37-bcbde5a7-843c-4736-9faa-31f3490150c2_C000",
+  "D1_real37-d4011e5b-1d68-489d-a252-41801f4e63e8_C001",
+  "D1_real37-ecd1eab3-dbae-402a-8fe5-7e31697c5a53_C007",
+  "D1_real37-session-42cb832f-f923-48cb-8c1e-074f1a7089d8_C004",
+  "D1_real37-session-704db4db-9243-4315-86b7-29899cf88dde_C007",
+  "D1_real37-session-708c0f81-88a5-408d-945d-6d970ab94021_C015",
+  "codex-f0a57f89-d2a1-46b9-98a6-a11bece8d0bb_C001",
+  "codex-session-17ca5674-e5f1-4c0f-bf61-71e62d8a6ad8_C046",
+  "codex-session-17ca5674-e5f1-4c0f-bf61-71e62d8a6ad8_C059",
+  "codex-session-17ca5674-e5f1-4c0f-bf61-71e62d8a6ad8_C063",
+  "codex-session-17ca5674-e5f1-4c0f-bf61-71e62d8a6ad8_C073",
+  "codex-session-4110889a-b461-44ad-9372-dd3d924c088d_C012",
+  "codex-session-876de003-4718-4d0d-bfb6-12ca0b93eee6_C100",
+  "codex-session-881b3b97-1d07-44a6-b512-d3ccf53c1267_C025",
+  "codex-session-99dc5805-65c1-4a8c-ab34-e2bd1f04d02d_C001",
+  "deepseek-91903b0f-2580-4469-8f19-aaa9511d9f1b_C009",
+  "deepseek-91903b0f-2580-4469-8f19-aaa9511d9f1b_C013",
+  "deepseek-session-f0973fdd-32c5-464f-a5c9-dd19d654deff_C104",
+  "deepseek-session-f0973fdd-32c5-464f-a5c9-dd19d654deff_C273",
+  "妈妈杯-24ea9767-f37e-42f3-a245-6952860ddf50_C011",
+  "妈妈杯-f786a767-afc1-4f12-a736-e2ff1e53ad34_C005",
+  "妈妈杯-session-b6ba8408-8270-4e82-815d-7a73807f6fb4_C000",
+  "妈妈杯-session-b6ba8408-8270-4e82-815d-7a73807f6fb4_C257",
+  "妈妈杯-session-c15ea9d0-36c4-4e06-95ae-58cf42706b9f_C838",
+  "妈妈杯-session-c15ea9d0-36c4-4e06-95ae-58cf42706b9f_C876",
+  "数媒杯-512af3f8-c794-43d3-9958-608f01be2cfb_C008",
+  "数媒杯-73885340-d430-4763-8e1f-49e01670e58f_C014",
+  "数媒杯-session-643a0343-02d6-4129-bf9c-94914b0e6c79_C048",
+  "文献阅读汇报-session-7184c5ee-b103-4ccf-8cd5-63735536e3b1_C014"
+ ],
+ "pending": []
+}

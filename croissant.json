@@ -1,0 +1,620 @@
+{
+ "@context": {
+  "@language": "en",
+  "@vocab": "https://schema.org/",
+  "citeAs": "cr:citeAs",
+  "column": "cr:column",
+  "conformsTo": "dct:conformsTo",
+  "cr": "http://mlcommons.org/croissant/",
+  "rai": "http://mlcommons.org/croissant/RAI/",
+  "data": {
+   "@id": "cr:data",
+   "@type": "@json"
+  },
+  "dataType": {
+   "@id": "cr:dataType",
+   "@type": "@vocab"
+  },
+  "dct": "http://purl.org/dc/terms/",
+  "equivalentProperty": "cr:equivalentProperty",
+  "examples": {
+   "@id": "cr:examples",
+   "@type": "@json"
+  },
+  "extract": "cr:extract",
+  "field": "cr:field",
+  "fileProperty": "cr:fileProperty",
+  "fileObject": "cr:fileObject",
+  "fileSet": "cr:fileSet",
+  "format": "cr:format",
+  "includes": "cr:includes",
+  "isLiveDataset": "cr:isLiveDataset",
+  "jsonPath": "cr:jsonPath",
+  "key": "cr:key",
+  "md5": "cr:md5",
+  "parentField": "cr:parentField",
+  "path": "cr:path",
+  "recordSet": "cr:recordSet",
+  "references": "cr:references",
+  "regex": "cr:regex",
+  "repeated": "cr:repeated",
+  "replace": "cr:replace",
+  "samplingRate": "cr:samplingRate",
+  "sc": "https://schema.org/",
+  "separator": "cr:separator",
+  "source": "cr:source",
+  "subField": "cr:subField",
+  "transform": "cr:transform"
+ },
+ "@type": "sc:Dataset",
+ "name": "CEC-AD: Claim-Evidence Consistency Benchmark for Agent Deliverables",
+ "description": "CEC-AD is a benchmark for measuring whether an LLM agent's deliverable statements are supported by the execution evidence of its own trace. Each item pairs one extracted claim (an atomic result assertion) with the compressed evidence view of the tool calls available in that turn, plus one human label from {S supported, P partially supported, N no evidence, C contradicted, L not scored}. The corpus contains 6,366 claims from 89 captured agent sessions (83 unique session identifiers) across seven real workspaces (Chinese); the gold-standard subset contains 359 claims annotated independently by three annotators. Example instances in Appendix A of the companion paper are de-identified. TODO: finalize the public description after the double-blind review.",
+ "version": "1.0.0-draft",
+ "sdVersion": "0.1.0-draft",
+ "datePublished": "2026-11-12",
+ "dateCreated": "2026-11-12",
+ "dateModified": "2026-11-12",
+ "url": "TODO: anonymous repository URL during double-blind review; permanent project page after acceptance",
+ "sameAs": [
+  "TODO: data card URL (planned: <repo>/DATA_CARD.md)"
+ ],
+ "license": "TODO: data license (planned CC BY 4.0) and code license (planned MIT or Apache-2.0); finalize before release",
+ "creator": [
+  {
+   "@type": "sc:Organization",
+   "name": "TODO: author affiliation (anonymous during double-blind review)"
+  }
+ ],
+ "publisher": [
+  {
+   "@type": "sc:Organization",
+   "name": "TODO: publishing repository (e.g., anonymous GitHub/Hugging Face mirror)"
+  }
+ ],
+ "keywords": [
+  "claim-evidence consistency",
+  "LLM agents",
+  "agent traces",
+  "faithfulness evaluation",
+  "human annotation",
+  "annotation agreement",
+  "benchmark"
+ ],
+ "inLanguage": "zh",
+ "dct:conformsTo": [
+  "http://mlcommons.org/croissant/1.1",
+  "http://mlcommons.org/croissant/RAI/1.0"
+ ],
+ "cr:isLiveDataset": false,
+ "cr:citeAs": "TODO: BibTeX entry for the dataset/paper (fill after acceptance)",
+ "distribution": [
+  {
+   "@type": "cr:FileObject",
+   "@id": "cec_ad_claims_v1.csv",
+   "name": "cec_ad_claims_v1.csv",
+   "description": "Flat claims table for the gold-standard sample: one row per annotated claim with id, claim, serialized evidence view, domain, corpus source family, default-engine state, human gold label, gold construction source, and dev/test split. TODO: compute sha256 and host at contentUrl.",
+   "contentUrl": "https://raw.githubusercontent.com/<GITHUB_USER>/cec-ad/main/cec_ad_claims_v1.csv",
+   "encodingFormat": "text/csv",
+   "sha256": "TODO"
+  },
+  {
+   "@type": "cr:FileObject",
+   "@id": "cec_ad_evidence_v1.csv",
+   "name": "cec_ad_evidence_v1.csv",
+   "description": "Normalized evidence view in long format: one row per (claim, tool call) with tool name, status, truncated output digest, and tool-call index. TODO: compute sha256 and host at contentUrl.",
+   "contentUrl": "https://raw.githubusercontent.com/<GITHUB_USER>/cec-ad/main/cec_ad_evidence_v1.csv",
+   "encodingFormat": "text/csv",
+   "sha256": "TODO"
+  },
+  {
+   "@type": "cr:FileObject",
+   "@id": "cec_ad_annotations_v1.csv",
+   "name": "cec_ad_annotations_v1.csv",
+   "description": "Long-format individual annotations: one row per (claim, annotator) with the annotator alias (A/B/C) and the five-state label. Gold labels are in cec_ad_claims_v1.csv (gold column); original labels are never overwritten. TODO: compute sha256 and host at contentUrl.",
+   "contentUrl": "https://raw.githubusercontent.com/<GITHUB_USER>/cec-ad/main/cec_ad_annotations_v1.csv",
+   "encodingFormat": "text/csv",
+   "sha256": "TODO"
+  },
+  {
+   "@type": "cr:FileObject",
+   "@id": "cec_ad_sessions_v1.csv",
+   "name": "cec_ad_sessions_v1.csv",
+   "description": "Session-level metadata with pseudonymous session references: corpus source family, domain, number of claims, and dev/test split. No absolute paths or user identifiers. TODO: compute sha256 and host at contentUrl.",
+   "contentUrl": "https://raw.githubusercontent.com/<GITHUB_USER>/cec-ad/main/cec_ad_sessions_v1.csv",
+   "encodingFormat": "text/csv",
+   "sha256": "TODO"
+  },
+  {
+   "@type": "cr:FileObject",
+   "@id": "cec_ad_corpus_v1.json",
+   "name": "cec_ad_corpus_v1.json",
+   "description": "Full de-identified corpus (89 captured sessions / 6,366 claims) with claim text, evidence units (tool/status/digest), domain, and default-engine state. Human gold labels are provided only for the 359 annotated claims. TODO: compute sha256 and host at contentUrl.",
+   "contentUrl": "https://raw.githubusercontent.com/<GITHUB_USER>/cec-ad/main/cec_ad_corpus_v1.json",
+   "encodingFormat": "application/json",
+   "sha256": "TODO"
+  },
+  {
+   "@type": "cr:FileObject",
+   "@id": "cec_ad_second_round_v1.csv",
+   "name": "cec_ad_second_round_v1.csv",
+   "description": "Second-round diagnostic items (60 evidence-completeness paired items + 60 rare-class items), with the second-round human labels. Diagnostic only; not part of the 359-claim gold standard. TODO: compute sha256 and host at contentUrl.",
+   "contentUrl": "https://raw.githubusercontent.com/<GITHUB_USER>/cec-ad/main/cec_ad_second_round_v1.csv",
+   "encodingFormat": "text/csv",
+   "sha256": "TODO"
+  },
+  {
+   "@type": "cr:FileObject",
+   "@id": "cec_ad_annotation_manual_v1.pdf",
+   "name": "cec_ad_annotation_manual_v1.pdf",
+   "description": "Annotation manual v2 (12 chapters, 20 boundary cases): five-state definitions, fixed judgment order, P/C boundary, relevance gate, arbitration. TODO: export final PDF, compute sha256, host at contentUrl.",
+   "contentUrl": "https://raw.githubusercontent.com/<GITHUB_USER>/cec-ad/main/cec_ad_annotation_manual_v1.pdf",
+   "encodingFormat": "application/pdf",
+   "sha256": "TODO"
+  },
+  {
+   "@type": "cr:FileObject",
+   "@id": "cec_ad_code_v1.zip",
+   "name": "cec_ad_code_v1.zip",
+   "description": "Evaluation code and baselines: benchmark scoring script, the rule v2 judge (public baseline), heuristic and LLM-judge adapters, and the annotation export/import/report scripts. TODO: package repository snapshot, compute sha256, host at contentUrl.",
+   "contentUrl": "https://raw.githubusercontent.com/<GITHUB_USER>/cec-ad/main/cec_ad_code_v1.zip",
+   "encodingFormat": "application/zip",
+   "sha256": "TODO"
+  },
+  {
+   "@type": "cr:FileObject",
+   "@id": "cec_ad_datacard_v1.md",
+   "name": "cec_ad_datacard_v1.md",
+   "description": "Data card v1 (2026-11-12): corpus composition, annotation protocol, agreement statistics, known biases, intended and prohibited uses, ethics and compliance notes. TODO: compute sha256 and host at contentUrl.",
+   "contentUrl": "https://raw.githubusercontent.com/<GITHUB_USER>/cec-ad/main/cec_ad_datacard_v1.md",
+   "encodingFormat": "text/markdown",
+   "sha256": "TODO"
+  }
+ ],
+ "recordSet": [
+  {
+   "@type": "cr:RecordSet",
+   "@id": "claims",
+   "name": "claims",
+   "description": "One record per annotated claim (359 gold items). TODO: keep the field set aligned with the final public CSV header; the evidence field may alternatively be modelled as a nested RecordSet.",
+   "key": [
+    {
+     "@id": "claims/id"
+    }
+   ],
+   "field": [
+    {
+     "@type": "cr:Field",
+     "@id": "claims/id",
+     "name": "id",
+     "description": "Stable claim identifier for the released dataset (de-identified; internal session-level identifiers are not published).",
+     "dataType": "sc:Text",
+     "source": {
+      "fileObject": {
+       "@id": "cec_ad_claims_v1.csv"
+      },
+      "extract": {
+       "column": "id"
+      }
+     }
+    },
+    {
+     "@type": "cr:Field",
+     "@id": "claims/claim",
+     "name": "claim",
+     "description": "The claim text in the original language (Chinese), with paths/identifiers masked as <ROOT>/<HOME>/<ID>.",
+     "dataType": "sc:Text",
+     "source": {
+      "fileObject": {
+       "@id": "cec_ad_claims_v1.csv"
+      },
+      "extract": {
+       "column": "claim"
+      }
+     }
+    },
+    {
+     "@type": "cr:Field",
+     "@id": "claims/evidence",
+     "name": "evidence",
+     "description": "Serialized evidence view for the claim: a JSON array of evidence units (tool, status, truncated output digest). The normalized long-format view is the evidence RecordSet. TODO: decide whether to keep this convenience field in the public CSV or model evidence only as a nested recordset.",
+     "dataType": "sc:Text",
+     "source": {
+      "fileObject": {
+       "@id": "cec_ad_claims_v1.csv"
+      },
+      "extract": {
+       "column": "evidence"
+      }
+     }
+    },
+    {
+     "@type": "cr:Field",
+     "@id": "claims/domain",
+     "name": "domain",
+     "description": "Task domain: file_code, data_analysis, or writing_retrieval.",
+     "dataType": "sc:Text",
+     "source": {
+      "fileObject": {
+       "@id": "cec_ad_claims_v1.csv"
+      },
+      "extract": {
+       "column": "domain"
+      }
+     }
+    },
+    {
+     "@type": "cr:Field",
+     "@id": "claims/corpus_source",
+     "name": "corpus_source",
+     "description": "Corpus source family (pseudonymous workspace label): D1_real37, codex, deepseek, math_modeling, media_art, literature_report, workbuddy. Values mapped from the internal family names at release time.",
+     "dataType": "sc:Text",
+     "source": {
+      "fileObject": {
+       "@id": "cec_ad_claims_v1.csv"
+      },
+      "extract": {
+       "column": "corpus_source"
+      }
+     }
+    },
+    {
+     "@type": "cr:Field",
+     "@id": "claims/state",
+     "name": "state",
+     "description": "System state under the default rule engine, used only for stratification and baselines: supported, partially_supported, no_evidence, contradicted, not_scored. This is NOT a human label.",
+     "dataType": "sc:Text",
+     "source": {
+      "fileObject": {
+       "@id": "cec_ad_claims_v1.csv"
+      },
+      "extract": {
+       "column": "state"
+      }
+     }
+    },
+    {
+     "@type": "cr:Field",
+     "@id": "claims/gold",
+     "name": "gold",
+     "description": "Human gold label after majority vote / Lead adjudication: supported, partially_supported, no_evidence, contradicted, not_scored. TODO: consider typing with cr:Label and publishing the label vocabulary.",
+     "dataType": "sc:Text",
+     "source": {
+      "fileObject": {
+       "@id": "cec_ad_claims_v1.csv"
+      },
+      "extract": {
+       "column": "gold"
+      }
+     }
+    },
+    {
+     "@type": "cr:Field",
+     "@id": "claims/gold_source",
+     "name": "gold_source",
+     "description": "How the gold label was obtained: majority (strict majority; includes the unanimous cases) or adjudicated (1-1-1 split resolved by the Lead).",
+     "dataType": "sc:Text",
+     "source": {
+      "fileObject": {
+       "@id": "cec_ad_claims_v1.csv"
+      },
+      "extract": {
+       "column": "gold_source"
+      }
+     }
+    },
+    {
+     "@type": "cr:Field",
+     "@id": "claims/split",
+     "name": "split",
+     "description": "Session-level split used in the paper: dev (180 claims) or test (179 claims). The split is by session, not by claim.",
+     "dataType": "sc:Text",
+     "source": {
+      "fileObject": {
+       "@id": "cec_ad_claims_v1.csv"
+      },
+      "extract": {
+       "column": "split"
+      }
+     }
+    },
+    {
+     "@type": "cr:Field",
+     "@id": "claims/language",
+     "name": "language",
+     "description": "Language of the claim/evidence text.",
+     "dataType": "sc:Text",
+     "value": "zh"
+    }
+   ]
+  },
+  {
+   "@type": "cr:RecordSet",
+   "@id": "evidence",
+   "name": "evidence",
+   "description": "Normalized evidence view: one record per (claim, tool call). The output digest is truncated (main study: 200-character digests).",
+   "key": [
+    {
+     "@id": "evidence/item_id"
+    },
+    {
+     "@id": "evidence/tool_call_index"
+    }
+   ],
+   "field": [
+    {
+     "@type": "cr:Field",
+     "@id": "evidence/item_id",
+     "name": "item_id",
+     "description": "Claim identifier this evidence unit belongs to.",
+     "dataType": "sc:Text",
+     "source": {
+      "fileObject": {
+       "@id": "cec_ad_evidence_v1.csv"
+      },
+      "extract": {
+       "column": "item_id"
+      }
+     }
+    },
+    {
+     "@type": "cr:Field",
+     "@id": "evidence/tool",
+     "name": "tool",
+     "description": "Tool name reported in the trace (e.g., pwsh, read, write, present, send_message).",
+     "dataType": "sc:Text",
+     "source": {
+      "fileObject": {
+       "@id": "cec_ad_evidence_v1.csv"
+      },
+      "extract": {
+       "column": "tool"
+      }
+     }
+    },
+    {
+     "@type": "cr:Field",
+     "@id": "evidence/status",
+     "name": "status",
+     "description": "Execution status: ok or error.",
+     "dataType": "sc:Text",
+     "source": {
+      "fileObject": {
+       "@id": "cec_ad_evidence_v1.csv"
+      },
+      "extract": {
+       "column": "status"
+      }
+     }
+    },
+    {
+     "@type": "cr:Field",
+     "@id": "evidence/output_digest",
+     "name": "output_digest",
+     "description": "Truncated, de-identified output digest shown to annotators (main study).",
+     "dataType": "sc:Text",
+     "source": {
+      "fileObject": {
+       "@id": "cec_ad_evidence_v1.csv"
+      },
+      "extract": {
+       "column": "output_digest"
+      }
+     }
+    },
+    {
+     "@type": "cr:Field",
+     "@id": "evidence/tool_call_index",
+     "name": "tool_call_index",
+     "description": "Zero-based index of the tool call within the claim's evidence view.",
+     "dataType": "sc:Integer",
+     "source": {
+      "fileObject": {
+       "@id": "cec_ad_evidence_v1.csv"
+      },
+      "extract": {
+       "column": "tool_call_index"
+      }
+     }
+    }
+   ]
+  },
+  {
+   "@type": "cr:RecordSet",
+   "@id": "annotations",
+   "name": "annotations",
+   "description": "Individual annotations in long format (three per claim). Original annotator labels are kept separate from the gold labels and are never overwritten.",
+   "key": [
+    {
+     "@id": "annotations/item_id"
+    },
+    {
+     "@id": "annotations/annotator"
+    }
+   ],
+   "field": [
+    {
+     "@type": "cr:Field",
+     "@id": "annotations/item_id",
+     "name": "item_id",
+     "description": "Claim identifier being annotated.",
+     "dataType": "sc:Text",
+     "source": {
+      "fileObject": {
+       "@id": "cec_ad_annotations_v1.csv"
+      },
+      "extract": {
+       "column": "item_id"
+      }
+     }
+    },
+    {
+     "@type": "cr:Field",
+     "@id": "annotations/annotator",
+     "name": "annotator",
+     "description": "Annotator alias: A, B, or C.",
+     "dataType": "sc:Text",
+     "source": {
+      "fileObject": {
+       "@id": "cec_ad_annotations_v1.csv"
+      },
+      "extract": {
+       "column": "annotator"
+      }
+     }
+    },
+    {
+     "@type": "cr:Field",
+     "@id": "annotations/label",
+     "name": "label",
+     "description": "Annotator's five-state label: supported, partially_supported, no_evidence, contradicted, not_scored.",
+     "dataType": "sc:Text",
+     "source": {
+      "fileObject": {
+       "@id": "cec_ad_annotations_v1.csv"
+      },
+      "extract": {
+       "column": "label"
+      }
+     }
+    }
+   ]
+  },
+  {
+   "@type": "cr:RecordSet",
+   "@id": "sessions",
+   "name": "sessions",
+   "description": "Session-level metadata (99 sessions), de-identified.",
+   "key": [
+    {
+     "@id": "sessions/session_ref"
+    }
+   ],
+   "field": [
+    {
+     "@type": "cr:Field",
+     "@id": "sessions/session_ref",
+     "name": "session_ref",
+     "description": "Pseudonymous session reference (stable within the release; not derived from the raw session UUID).",
+     "dataType": "sc:Text",
+     "source": {
+      "fileObject": {
+       "@id": "cec_ad_sessions_v1.csv"
+      },
+      "extract": {
+       "column": "session_ref"
+      }
+     }
+    },
+    {
+     "@type": "cr:Field",
+     "@id": "sessions/corpus_family",
+     "name": "corpus_family",
+     "description": "Corpus source family (pseudonymous workspace label).",
+     "dataType": "sc:Text",
+     "source": {
+      "fileObject": {
+       "@id": "cec_ad_sessions_v1.csv"
+      },
+      "extract": {
+       "column": "corpus_family"
+      }
+     }
+    },
+    {
+     "@type": "cr:Field",
+     "@id": "sessions/domain",
+     "name": "domain",
+     "description": "Task domain assigned to the session: file_code, data_analysis, or writing_retrieval.",
+     "dataType": "sc:Text",
+     "source": {
+      "fileObject": {
+       "@id": "cec_ad_sessions_v1.csv"
+      },
+      "extract": {
+       "column": "domain"
+      }
+     }
+    },
+    {
+     "@type": "cr:Field",
+     "@id": "sessions/n_claims",
+     "name": "n_claims",
+     "description": "Number of claims extracted from the session.",
+     "dataType": "sc:Integer",
+     "source": {
+      "fileObject": {
+       "@id": "cec_ad_sessions_v1.csv"
+      },
+      "extract": {
+       "column": "n_claims"
+      }
+     }
+    },
+    {
+     "@type": "cr:Field",
+     "@id": "sessions/split",
+     "name": "split",
+     "description": "Session-level split: dev or test.",
+     "dataType": "sc:Text",
+     "source": {
+      "fileObject": {
+       "@id": "cec_ad_sessions_v1.csv"
+      },
+      "extract": {
+       "column": "split"
+      }
+     }
+    }
+   ]
+  }
+ ],
+ "rai:dataCollection": "The corpus is a by-product of auditing real agent traces. Session logs of our own tool-using agent workspaces (JSONL, zstd-compressed) were converted into capture JSON (turns, tool calls, statuses), claims were extracted from assistant deliverable text, and each claim was paired with the evidence view of its turn. Seven workspaces contributed 99 sessions and 6,366 claims: 37 deep-research sessions, 13 mathematics-modeling sessions, 4 media-art sessions, 2 literature-reading sessions, 2 WorkBuddy sessions, 13 Codex sessions, and 18 DeepSeek-agent sessions (one oversized session skipped because a single observation exceeded the audit process's memory budget). No external user data were actively collected for the benchmark; all sessions are first-author workspaces.",
+ "rai:dataCollectionType": [
+  "Software Collection",
+  "Secondary Data Analysis"
+ ],
+ "rai:dataCollectionRawData": "Agent session logs produced by the DeepSeek Harness runtime (event streams with user messages, assistant messages, tool calls and tool results), converted by project scripts into capture JSON. Claims are substrings of assistant deliverable text extracted by a deterministic splitter; evidence digests are derived from tool results.",
+ "rai:dataCollectionTimeframe": "TODO: exact start and end dates of the collected sessions (to be copied from the release log; do not approximate)",
+ "rai:dataCollectionMissingData": "One oversized DeepSeek-agent session was skipped because a single observation exceeded the audit process's memory budget (recorded in the release log). Sessions containing sensitive personal information, credentials or un-redactable content were excluded. Non-assertion fragments (markdown tables, headings, JSON/code fragments) remain in the pool by design and are labelled L when annotated; they are a known source of noise, not missing data.",
+ "rai:dataPreprocessingProtocol": [
+  "Convert zstd-compressed session event streams to capture JSON (turns; tool calls with input, output and status).",
+  "De-identify: replace absolute paths with <ROOT>/<HOME>/<SYSTEM>, mask emails, phone numbers, API keys/tokens and request IDs; drop un-redactable sessions.",
+  "Extract atomic claim candidates from assistant deliverable text with a deterministic splitter; keep the claim text verbatim (except masking).",
+  "Build the evidence view per claim from the tool calls available up to the claim's turn; truncate output digests (main study: 200-character digests; second-round diagnostics: up to 8 calls, up to 1,200 characters per call).",
+  "Stratify a 359-claim annotation sample by domain and by the default engine's five-state label (target 120 claims per domain; N-state quota could not be met and was backfilled, documented in the paper §4.2).",
+  "TODO: publish the exact scripts and final file headers; verify that the released corpus contains no absolute paths or identifiers."
+ ],
+ "rai:dataAnnotationProtocol": "Three independent annotators (A: technical user with ~1 year development/testing experience; B: non-technical product/administrative user; C: different professional background; none with prior AI-evaluation research experience) labeled each claim using a 12-chapter manual with 20 boundary cases. Training took about 30 minutes per annotator. The manual defines five states (S supported, P partially supported, N no evidence, C contradicted, L not scored), a fixed hit-and-stop judgment order (L -> N -> C -> S -> P), the P/C boundary ('said all but did not do all' = C; 'did not say all, just did not finish' = P), the relevance gate for tool errors, per-tool-call count isolation, and Chinese-numeral/range normalization. Each annotator labeled a 30-claim pilot from the same pool; the pilot gate required Fleiss' kappa >= 0.60, mean pairwise agreement >= 70%, and at most 2/30 severe S-N directional disagreements. The pilot passed (kappa = 0.670, agreement = 74.4%, 0/30 severe). The 359-claim main study was divided into three batches of about 120 claims, capped at 60 claims per annotator per day. For each row the annotator gave one label, a one-line reason, and an optional flag for insufficient/ambiguous evidence. Annotators worked independently, did not discuss items, did not see system labels, and were instructed not to use AI tools for labelling.",
+ "rai:dataAnnotationPlatform": "Spreadsheet-based annotation tables (three blinded copies, one per annotator), distributed and collected by the study lead; pilot calibration and the manual were distributed as documents. No crowdsourcing platform was used.",
+ "rai:dataAnnotationAnalysis": "Gold labels were built by strict majority for 349/359 claims; 10/359 claims were 1-1-1 splits and were adjudicated by the Lead following the manual's P/C boundary and arbitration rules. Original annotator labels were kept unchanged. Inter-annotator agreement: Fleiss' kappa = 0.628 (bootstrap 95% CI 0.576-0.677); pairwise agreement 77.7%/76.9%/69.6%; pairwise Cohen's kappa 0.680/0.650/0.555. Gold label distribution (n=359): S 55, P 154, N 15, C 11, L 124. A paired second-round diagnostic with complete evidence (60 items) reduced inter-annotator agreement from kappa = 0.635 (truncated digests) to kappa = 0.264 (complete evidence); a 60-item rare-class supplement reached kappa = 0.273. Agreement is interpreted as evidence that the protocol is consistently executable, not as evidence that the gold labels are objectively correct.",
+ "rai:annotationsPerItem": "3 independent human labels per item (annotators A, B, C); gold = strict majority (349 items) or Lead adjudication of the 1-1-1 splits (10 items).",
+ "rai:annotatorDemographics": "Annotator aliases A (technical background, ~1 year development/testing experience), B (non-technical product/administrative background), C (different professional background); none had prior AI-evaluation research experience. TODO: add any further demographic attributes only if separate consent permits; otherwise keep this minimal description.",
+ "rai:machineAnnotationTools": [
+  "No machine labels are included in the gold standard. The default rule engine's five-state output is included only as a stratification/baseline metadata field (state), never as a human label."
+ ],
+ "rai:dataUseCases": [
+  "Research on claim-evidence consistency, agent self-reporting and faithfulness evaluation.",
+  "Benchmarking rule-based judges, heuristic baselines and LLM-as-judge baselines; studying annotator agreement and evidence-presentation effects.",
+  "Reproducibility and methodology research on human annotation of agent traces.",
+  "NOT recommended: estimating deployment accuracy on the population without re-validation (the 359 claims are state-stratified, not a random sample); treating C/N metrics as full contradiction-detection capability (C and N are rare and unreliable in this corpus); cross-language/cross-domain transfer without re-validation."
+ ],
+ "rai:dataLimitations": [
+  "Single-language (Chinese) corpus authored by the first author's own agents; domain and author effects are not controlled, and the data are not representative of users in general.",
+  "The 359-claim annotation sample is stratified by domain and engine state (not a random sample); N-state claims are genuinely rare in the corpus, and the quota could not be met.",
+  "C and N are rare and unreliable (C 11/359, N 15/359; rare-class kappa = 0.273), so the benchmark supports only weak conclusions about contradiction detection.",
+  "The main study exposed a compressed 200-character evidence view; complete-evidence diagnostics exist but are diagnostic, not part of the gold standard.",
+  "The gold standard is a majority/adjudicated human standard, not objective ground truth; the task is inherently interpretive.",
+  "Annotator fatigue and interpretation drift were not formally modeled; mitigated by pilot gates, agreement reporting and per-round sensitivity analysis.",
+  "Task utility (reducing missed errors or verification time) was not measured."
+ ],
+ "rai:dataBiases": [
+  "Author/workspace bias: the corpus comes from one author's agent workspaces and a small set of task families (file/code, data analysis, writing/retrieval).",
+  "Form bias: roughly 30% of candidate items are markdown/table/heading fragments; annotators reasonably label many as L, and the default engine wrongly treats some as claims (a known source of noise).",
+  "Label-prior bias: P and L dominate the gold distribution (P 154/359, L 124/359), reflecting the real corpus and the compressed evidence view rather than a balanced five-class design.",
+  "State-stratification bias: rare states were deliberately over-sampled for analysis, so label proportions in the gold sample do not match the corpus population S 54.7%/P 15.6%/N 0.3%/C 18.6%/L 10.1%."
+ ],
+ "rai:personalSensitiveInformation": "The released data are de-identified agent traces: absolute paths are replaced by <ROOT>/<HOME>/<SYSTEM>, emails/phone numbers/API keys/tokens/request IDs are masked, and sessions containing sensitive personal information or credentials were excluded. The corpus contains model/agent-generated text and tool outputs; no deliberate collection of personal attributes of any person was performed. TODO: run a final manual PII audit before public release and record the audit in the release log.",
+ "rai:dataSocialImpact": "The benchmark is intended to improve the auditability of agent deliverables by measuring whether reported work is supported by execution evidence. Dual use is possible: the same signals could be used to optimize agents to appear self-consistent without improving actual task quality. To mitigate this, the release includes known limitations, prohibited-use guidance, and the annotation manual so that results can be audited rather than gamed. The dataset contains no deployed-system decisions and should not be used to rank people.",
+ "rai:dataReleaseMaintenancePlan": "Version 1.0.0-draft (2026-11-12) freezes the main gold standard and the results table; corrections are issued as errata linked from the data card (following the project's errata practice). Planned public release accompanies the paper: code, de-identified data, data card, annotation manual, evaluation scripts and Croissant metadata (this file). TODO: name the maintainers, the repository, the errata location, and the deprecation policy before release.",
+ "rai:dataManipulationProtocol": "TODO: no statistical manipulation or imputation was applied to the released labels. If the release re-buckets labels or omits fields for privacy, describe each transformation here before publication."
+}

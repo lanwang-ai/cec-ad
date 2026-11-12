@@ -1,0 +1,766 @@
+{
+ "dev": {
+  "v2": {
+   "n": 180,
+   "agree": 116,
+   "rate": 0.6444,
+   "wilson": [
+    0.5722,
+    0.7107
+   ],
+   "kappa": 0.4534,
+   "macro_f1": 0.462,
+   "per_class": {
+    "supported": {
+     "n_gold": 33,
+     "tp": 9,
+     "fp": 5,
+     "fn": 24,
+     "precision": 0.643,
+     "recall": 0.273,
+     "f1": 0.383
+    },
+    "partially_supported": {
+     "n_gold": 73,
+     "tp": 60,
+     "fp": 42,
+     "fn": 13,
+     "precision": 0.588,
+     "recall": 0.822,
+     "f1": 0.686
+    },
+    "no_evidence": {
+     "n_gold": 11,
+     "tp": 4,
+     "fp": 1,
+     "fn": 7,
+     "precision": 0.8,
+     "recall": 0.364,
+     "f1": 0.5
+    },
+    "contradicted": {
+     "n_gold": 6,
+     "tp": 0,
+     "fp": 0,
+     "fn": 6,
+     "precision": 0.0,
+     "recall": 0.0,
+     "f1": 0.0
+    },
+    "not_scored": {
+     "n_gold": 57,
+     "tp": 43,
+     "fp": 16,
+     "fn": 14,
+     "precision": 0.729,
+     "recall": 0.754,
+     "f1": 0.741
+    }
+   },
+   "confusion": {
+    "supported": {
+     "supported": 9,
+     "partially_supported": 2,
+     "no_evidence": 1,
+     "contradicted": 0,
+     "not_scored": 2
+    },
+    "partially_supported": {
+     "supported": 20,
+     "partially_supported": 60,
+     "no_evidence": 5,
+     "contradicted": 6,
+     "not_scored": 11
+    },
+    "no_evidence": {
+     "supported": 0,
+     "partially_supported": 0,
+     "no_evidence": 4,
+     "contradicted": 0,
+     "not_scored": 1
+    },
+    "contradicted": {
+     "supported": 0,
+     "partially_supported": 0,
+     "no_evidence": 0,
+     "contradicted": 0,
+     "not_scored": 0
+    },
+    "not_scored": {
+     "supported": 4,
+     "partially_supported": 11,
+     "no_evidence": 1,
+     "contradicted": 0,
+     "not_scored": 43
+    }
+   }
+  },
+  "rule": {
+   "n": 180,
+   "agree": 62,
+   "rate": 0.3444,
+   "wilson": [
+    0.2789,
+    0.4165
+   ],
+   "kappa": 0.1719,
+   "macro_f1": 0.2756,
+   "per_class": {
+    "supported": {
+     "n_gold": 33,
+     "tp": 11,
+     "fp": 31,
+     "fn": 22,
+     "precision": 0.262,
+     "recall": 0.333,
+     "f1": 0.293
+    },
+    "partially_supported": {
+     "n_gold": 73,
+     "tp": 31,
+     "fp": 19,
+     "fn": 42,
+     "precision": 0.62,
+     "recall": 0.425,
+     "f1": 0.504
+    },
+    "no_evidence": {
+     "n_gold": 11,
+     "tp": 1,
+     "fp": 12,
+     "fn": 10,
+     "precision": 0.077,
+     "recall": 0.091,
+     "f1": 0.083
+    },
+    "contradicted": {
+     "n_gold": 6,
+     "tp": 2,
+     "fp": 51,
+     "fn": 4,
+     "precision": 0.038,
+     "recall": 0.333,
+     "f1": 0.068
+    },
+    "not_scored": {
+     "n_gold": 57,
+     "tp": 17,
+     "fp": 5,
+     "fn": 40,
+     "precision": 0.773,
+     "recall": 0.298,
+     "f1": 0.43
+    }
+   },
+   "confusion": {
+    "supported": {
+     "supported": 11,
+     "partially_supported": 14,
+     "no_evidence": 0,
+     "contradicted": 1,
+     "not_scored": 16
+    },
+    "partially_supported": {
+     "supported": 4,
+     "partially_supported": 31,
+     "no_evidence": 1,
+     "contradicted": 2,
+     "not_scored": 12
+    },
+    "no_evidence": {
+     "supported": 2,
+     "partially_supported": 6,
+     "no_evidence": 1,
+     "contradicted": 1,
+     "not_scored": 3
+    },
+    "contradicted": {
+     "supported": 16,
+     "partially_supported": 22,
+     "no_evidence": 4,
+     "contradicted": 2,
+     "not_scored": 9
+    },
+    "not_scored": {
+     "supported": 0,
+     "partially_supported": 0,
+     "no_evidence": 5,
+     "contradicted": 0,
+     "not_scored": 17
+    }
+   }
+  },
+  "heuristic": {
+   "n": 180,
+   "agree": 64,
+   "rate": 0.3556,
+   "wilson": [
+    0.2893,
+    0.4278
+   ],
+   "kappa": 0.1601,
+   "macro_f1": 0.253,
+   "per_class": {
+    "supported": {
+     "n_gold": 33,
+     "tp": 15,
+     "fp": 19,
+     "fn": 18,
+     "precision": 0.441,
+     "recall": 0.455,
+     "f1": 0.448
+    },
+    "partially_supported": {
+     "n_gold": 73,
+     "tp": 43,
+     "fp": 36,
+     "fn": 30,
+     "precision": 0.544,
+     "recall": 0.589,
+     "f1": 0.566
+    },
+    "no_evidence": {
+     "n_gold": 11,
+     "tp": 5,
+     "fp": 45,
+     "fn": 6,
+     "precision": 0.1,
+     "recall": 0.455,
+     "f1": 0.164
+    },
+    "contradicted": {
+     "n_gold": 6,
+     "tp": 1,
+     "fp": 16,
+     "fn": 5,
+     "precision": 0.059,
+     "recall": 0.167,
+     "f1": 0.087
+    },
+    "not_scored": {
+     "n_gold": 57,
+     "tp": 0,
+     "fp": 0,
+     "fn": 57,
+     "precision": 0.0,
+     "recall": 0.0,
+     "f1": 0.0
+    }
+   },
+   "confusion": {
+    "supported": {
+     "supported": 15,
+     "partially_supported": 11,
+     "no_evidence": 0,
+     "contradicted": 0,
+     "not_scored": 8
+    },
+    "partially_supported": {
+     "supported": 12,
+     "partially_supported": 43,
+     "no_evidence": 6,
+     "contradicted": 4,
+     "not_scored": 14
+    },
+    "no_evidence": {
+     "supported": 3,
+     "partially_supported": 14,
+     "no_evidence": 5,
+     "contradicted": 1,
+     "not_scored": 27
+    },
+    "contradicted": {
+     "supported": 3,
+     "partially_supported": 5,
+     "no_evidence": 0,
+     "contradicted": 1,
+     "not_scored": 8
+    },
+    "not_scored": {
+     "supported": 0,
+     "partially_supported": 0,
+     "no_evidence": 0,
+     "contradicted": 0,
+     "not_scored": 0
+    }
+   }
+  },
+  "const_p": {
+   "n": 180,
+   "agree": 73,
+   "rate": 0.4056,
+   "wilson": [
+    0.3365,
+    0.4785
+   ],
+   "kappa": 0.0,
+   "macro_f1": 0.1154,
+   "per_class": {
+    "supported": {
+     "n_gold": 33,
+     "tp": 0,
+     "fp": 0,
+     "fn": 33,
+     "precision": 0.0,
+     "recall": 0.0,
+     "f1": 0.0
+    },
+    "partially_supported": {
+     "n_gold": 73,
+     "tp": 73,
+     "fp": 107,
+     "fn": 0,
+     "precision": 0.406,
+     "recall": 1.0,
+     "f1": 0.577
+    },
+    "no_evidence": {
+     "n_gold": 11,
+     "tp": 0,
+     "fp": 0,
+     "fn": 11,
+     "precision": 0.0,
+     "recall": 0.0,
+     "f1": 0.0
+    },
+    "contradicted": {
+     "n_gold": 6,
+     "tp": 0,
+     "fp": 0,
+     "fn": 6,
+     "precision": 0.0,
+     "recall": 0.0,
+     "f1": 0.0
+    },
+    "not_scored": {
+     "n_gold": 57,
+     "tp": 0,
+     "fp": 0,
+     "fn": 57,
+     "precision": 0.0,
+     "recall": 0.0,
+     "f1": 0.0
+    }
+   },
+   "confusion": {
+    "supported": {
+     "supported": 0,
+     "partially_supported": 0,
+     "no_evidence": 0,
+     "contradicted": 0,
+     "not_scored": 0
+    },
+    "partially_supported": {
+     "supported": 33,
+     "partially_supported": 73,
+     "no_evidence": 11,
+     "contradicted": 6,
+     "not_scored": 57
+    },
+    "no_evidence": {
+     "supported": 0,
+     "partially_supported": 0,
+     "no_evidence": 0,
+     "contradicted": 0,
+     "not_scored": 0
+    },
+    "contradicted": {
+     "supported": 0,
+     "partially_supported": 0,
+     "no_evidence": 0,
+     "contradicted": 0,
+     "not_scored": 0
+    },
+    "not_scored": {
+     "supported": 0,
+     "partially_supported": 0,
+     "no_evidence": 0,
+     "contradicted": 0,
+     "not_scored": 0
+    }
+   }
+  }
+ },
+ "test": {
+  "v2": {
+   "n": 179,
+   "agree": 113,
+   "rate": 0.6313,
+   "wilson": [
+    0.5585,
+    0.6985
+   ],
+   "kappa": 0.3734,
+   "macro_f1": 0.3584,
+   "per_class": {
+    "supported": {
+     "n_gold": 22,
+     "tp": 2,
+     "fp": 4,
+     "fn": 20,
+     "precision": 0.333,
+     "recall": 0.091,
+     "f1": 0.143
+    },
+    "partially_supported": {
+     "n_gold": 81,
+     "tp": 72,
+     "fp": 46,
+     "fn": 9,
+     "precision": 0.61,
+     "recall": 0.889,
+     "f1": 0.724
+    },
+    "no_evidence": {
+     "n_gold": 4,
+     "tp": 1,
+     "fp": 2,
+     "fn": 3,
+     "precision": 0.333,
+     "recall": 0.25,
+     "f1": 0.286
+    },
+    "contradicted": {
+     "n_gold": 5,
+     "tp": 0,
+     "fp": 0,
+     "fn": 5,
+     "precision": 0.0,
+     "recall": 0.0,
+     "f1": 0.0
+    },
+    "not_scored": {
+     "n_gold": 67,
+     "tp": 38,
+     "fp": 14,
+     "fn": 29,
+     "precision": 0.731,
+     "recall": 0.567,
+     "f1": 0.639
+    }
+   },
+   "confusion": {
+    "supported": {
+     "supported": 2,
+     "partially_supported": 2,
+     "no_evidence": 0,
+     "contradicted": 0,
+     "not_scored": 2
+    },
+    "partially_supported": {
+     "supported": 16,
+     "partially_supported": 72,
+     "no_evidence": 1,
+     "contradicted": 4,
+     "not_scored": 25
+    },
+    "no_evidence": {
+     "supported": 0,
+     "partially_supported": 0,
+     "no_evidence": 1,
+     "contradicted": 0,
+     "not_scored": 2
+    },
+    "contradicted": {
+     "supported": 0,
+     "partially_supported": 0,
+     "no_evidence": 0,
+     "contradicted": 0,
+     "not_scored": 0
+    },
+    "not_scored": {
+     "supported": 4,
+     "partially_supported": 7,
+     "no_evidence": 2,
+     "contradicted": 1,
+     "not_scored": 38
+    }
+   }
+  },
+  "rule": {
+   "n": 179,
+   "agree": 57,
+   "rate": 0.3184,
+   "wilson": [
+    0.2546,
+    0.3899
+   ],
+   "kappa": 0.1085,
+   "macro_f1": 0.2162,
+   "per_class": {
+    "supported": {
+     "n_gold": 22,
+     "tp": 4,
+     "fp": 27,
+     "fn": 18,
+     "precision": 0.129,
+     "recall": 0.182,
+     "f1": 0.151
+    },
+    "partially_supported": {
+     "n_gold": 81,
+     "tp": 32,
+     "fp": 30,
+     "fn": 49,
+     "precision": 0.516,
+     "recall": 0.395,
+     "f1": 0.448
+    },
+    "no_evidence": {
+     "n_gold": 4,
+     "tp": 0,
+     "fp": 15,
+     "fn": 4,
+     "precision": 0.0,
+     "recall": 0.0,
+     "f1": 0.0
+    },
+    "contradicted": {
+     "n_gold": 5,
+     "tp": 1,
+     "fp": 47,
+     "fn": 4,
+     "precision": 0.021,
+     "recall": 0.2,
+     "f1": 0.038
+    },
+    "not_scored": {
+     "n_gold": 67,
+     "tp": 20,
+     "fp": 3,
+     "fn": 47,
+     "precision": 0.87,
+     "recall": 0.299,
+     "f1": 0.444
+    }
+   },
+   "confusion": {
+    "supported": {
+     "supported": 4,
+     "partially_supported": 15,
+     "no_evidence": 0,
+     "contradicted": 2,
+     "not_scored": 10
+    },
+    "partially_supported": {
+     "supported": 6,
+     "partially_supported": 32,
+     "no_evidence": 1,
+     "contradicted": 2,
+     "not_scored": 21
+    },
+    "no_evidence": {
+     "supported": 3,
+     "partially_supported": 6,
+     "no_evidence": 0,
+     "contradicted": 0,
+     "not_scored": 6
+    },
+    "contradicted": {
+     "supported": 9,
+     "partially_supported": 28,
+     "no_evidence": 0,
+     "contradicted": 1,
+     "not_scored": 10
+    },
+    "not_scored": {
+     "supported": 0,
+     "partially_supported": 0,
+     "no_evidence": 3,
+     "contradicted": 0,
+     "not_scored": 20
+    }
+   }
+  },
+  "heuristic": {
+   "n": 179,
+   "agree": 53,
+   "rate": 0.2961,
+   "wilson": [
+    0.2341,
+    0.3667
+   ],
+   "kappa": 0.0942,
+   "macro_f1": 0.1908,
+   "per_class": {
+    "supported": {
+     "n_gold": 22,
+     "tp": 6,
+     "fp": 29,
+     "fn": 16,
+     "precision": 0.171,
+     "recall": 0.273,
+     "f1": 0.211
+    },
+    "partially_supported": {
+     "n_gold": 81,
+     "tp": 43,
+     "fp": 32,
+     "fn": 38,
+     "precision": 0.573,
+     "recall": 0.531,
+     "f1": 0.551
+    },
+    "no_evidence": {
+     "n_gold": 4,
+     "tp": 3,
+     "fp": 45,
+     "fn": 1,
+     "precision": 0.062,
+     "recall": 0.75,
+     "f1": 0.115
+    },
+    "contradicted": {
+     "n_gold": 5,
+     "tp": 1,
+     "fp": 20,
+     "fn": 4,
+     "precision": 0.048,
+     "recall": 0.2,
+     "f1": 0.077
+    },
+    "not_scored": {
+     "n_gold": 67,
+     "tp": 0,
+     "fp": 0,
+     "fn": 67,
+     "precision": 0.0,
+     "recall": 0.0,
+     "f1": 0.0
+    }
+   },
+   "confusion": {
+    "supported": {
+     "supported": 6,
+     "partially_supported": 15,
+     "no_evidence": 0,
+     "contradicted": 1,
+     "not_scored": 13
+    },
+    "partially_supported": {
+     "supported": 9,
+     "partially_supported": 43,
+     "no_evidence": 1,
+     "contradicted": 3,
+     "not_scored": 19
+    },
+    "no_evidence": {
+     "supported": 3,
+     "partially_supported": 11,
+     "no_evidence": 3,
+     "contradicted": 0,
+     "not_scored": 31
+    },
+    "contradicted": {
+     "supported": 4,
+     "partially_supported": 12,
+     "no_evidence": 0,
+     "contradicted": 1,
+     "not_scored": 4
+    },
+    "not_scored": {
+     "supported": 0,
+     "partially_supported": 0,
+     "no_evidence": 0,
+     "contradicted": 0,
+     "not_scored": 0
+    }
+   }
+  },
+  "const_p": {
+   "n": 179,
+   "agree": 81,
+   "rate": 0.4525,
+   "wilson": [
+    0.3814,
+    0.5257
+   ],
+   "kappa": 0.0,
+   "macro_f1": 0.1246,
+   "per_class": {
+    "supported": {
+     "n_gold": 22,
+     "tp": 0,
+     "fp": 0,
+     "fn": 22,
+     "precision": 0.0,
+     "recall": 0.0,
+     "f1": 0.0
+    },
+    "partially_supported": {
+     "n_gold": 81,
+     "tp": 81,
+     "fp": 98,
+     "fn": 0,
+     "precision": 0.453,
+     "recall": 1.0,
+     "f1": 0.623
+    },
+    "no_evidence": {
+     "n_gold": 4,
+     "tp": 0,
+     "fp": 0,
+     "fn": 4,
+     "precision": 0.0,
+     "recall": 0.0,
+     "f1": 0.0
+    },
+    "contradicted": {
+     "n_gold": 5,
+     "tp": 0,
+     "fp": 0,
+     "fn": 5,
+     "precision": 0.0,
+     "recall": 0.0,
+     "f1": 0.0
+    },
+    "not_scored": {
+     "n_gold": 67,
+     "tp": 0,
+     "fp": 0,
+     "fn": 67,
+     "precision": 0.0,
+     "recall": 0.0,
+     "f1": 0.0
+    }
+   },
+   "confusion": {
+    "supported": {
+     "supported": 0,
+     "partially_supported": 0,
+     "no_evidence": 0,
+     "contradicted": 0,
+     "not_scored": 0
+    },
+    "partially_supported": {
+     "supported": 22,
+     "partially_supported": 81,
+     "no_evidence": 4,
+     "contradicted": 5,
+     "not_scored": 67
+    },
+    "no_evidence": {
+     "supported": 0,
+     "partially_supported": 0,
+     "no_evidence": 0,
+     "contradicted": 0,
+     "not_scored": 0
+    },
+    "contradicted": {
+     "supported": 0,
+     "partially_supported": 0,
+     "no_evidence": 0,
+     "contradicted": 0,
+     "not_scored": 0
+    },
+    "not_scored": {
+     "supported": 0,
+     "partially_supported": 0,
+     "no_evidence": 0,
+     "contradicted": 0,
+     "not_scored": 0
+    }
+   }
+  }
+ }
+}

@@ -1,0 +1,92 @@
+{
+ "files": [
+  {
+   "path": "code/audit/quality_audit.py"
+  },
+  {
+   "path": "code/audit/capture_spec.py"
+  },
+  {
+   "path": "code/judges/rule_judge.py"
+  },
+  {
+   "path": "code/judges/heuristic_judge.py"
+  },
+  {
+   "path": "code/judges/llm_judge.py"
+  },
+  {
+   "path": "code/judges/rule_v2_judge.py"
+  },
+  {
+   "path": "code/judges/test_rule_v2.py"
+  },
+  {
+   "path": "code/eval/eval.py"
+  },
+  {
+   "path": "code/annotation_tools/sample.py"
+  },
+  {
+   "path": "code/annotation_tools/stats.py"
+  },
+  {
+   "path": "code/annotation_tools/adjudicate.py"
+  },
+  {
+   "path": "code/annotation_tools/audit_v2.py"
+  },
+  {
+   "path": "code/annotation_tools/collect_and_check.py"
+  },
+  {
+   "path": "code/repro/make_figures.py"
+  },
+  {
+   "path": "code/repro/analyze_system_vs_gold.py"
+  },
+  {
+   "path": "code/repro/eval_rule_v2.py"
+  },
+  {
+   "path": "data/annotation/items_359_gold.json"
+  },
+  {
+   "path": "data/annotation/split_dev_test.json"
+  },
+  {
+   "path": "data/annotation/gold_360.json"
+  },
+  {
+   "path": "data/annotation/items_pilot30.json"
+  },
+  {
+   "path": "data/annotation/items_360.json"
+  },
+  {
+   "path": "data/annotation/second_round_items.json"
+  },
+  {
+   "path": "data/annotation/rare_class_items.json"
+  },
+  {
+   "path": "manual/annotation_manual.md"
+  },
+  {
+   "path": "manual/round2_protocol.md"
+  },
+  {
+   "path": "data/data_card.md"
+  },
+  {
+   "path": "docs/limitations.md"
+  },
+  {
+   "path": "results/paper_result_tables.md"
+  },
+  {
+   "path": "results/v2_independent_rerun.json"
+  }
+ ],
+ "generated_by": "build_public_bundle.py + finalize_bundle.py"
+}
